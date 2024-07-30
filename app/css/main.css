@@ -1,0 +1,52 @@
+/* Default text color (#66bbff) changed in light/dark switch */
+body {
+    background-color: rgb(160, 212, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0px;
+    overflow-y: scroll;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    line-height: normal;
+}
+
+/* Default text color (#000000) changed in light/dark switch */
+.dmaffected {
+    color: rgb(0, 0, 0);
+}
+
+#topbar {
+    height: 60px;
+    width: 100%;
+    background-color: #452080;
+    padding-top: 0px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    display: flex;
+}
+
+#topbar .logo {
+    height: 60px;
+}
+
+#topbar #lightdarkswitch {
+    height: 60px;
+    cursor: pointer;
+}
+
+.largeimage {
+    width: 100%;
+}
+
+.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.whitetext {
+    color: white;
+}
