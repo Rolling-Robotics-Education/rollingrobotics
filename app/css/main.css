@@ -1,4 +1,4 @@
-/* Default text color (#66bbff) changed in light/dark switch */
+/* Default text color rgb(160, 212, 255) changed in light/dark switch */
 body {
     background-color: rgb(160, 212, 255);
     font-family: Arial, Helvetica, sans-serif;
@@ -12,7 +12,7 @@ p {
     line-height: normal;
 }
 
-/* Default text color (#000000) changed in light/dark switch */
+/* Default text color rgb(0, 0, 0) changed in light/dark switch */
 .dmaffected {
     color: rgb(0, 0, 0);
 }
@@ -30,6 +30,29 @@ p {
 
 #topbar .logo {
     height: 60px;
+    cursor: pointer;
+}
+
+.topbarbutton {
+    height: 44px;
+    width: 120px;
+    white-space: nowrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: 9px solid #452080;
+    border-bottom: 8px solid #883fff;
+    cursor: pointer;
+}
+
+.topbarbutton:hover {
+    background-image: linear-gradient(#452080, #883fff);
+    font-size: 22px;
+    border-top-width: 8px;
+}
+
+.topbarbutton p {
+    text-align: center;
+    margin-top: 12px;
 }
 
 #topbar #lightdarkswitch {
@@ -37,14 +60,34 @@ p {
     cursor: pointer;
 }
 
+#aboutus {
+    width: 80%;
+    background-color: #ffffff55;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-size: 30px;
+}
+
 .largeimage {
     width: 100%;
+}
+
+.header {
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .centered {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.centeredtext {
+    text-align: center;
 }
 
 .whitetext {

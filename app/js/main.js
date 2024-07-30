@@ -1,4 +1,9 @@
 const stylesheet = document.styleSheets[0];
+const TOP_BAR_HEIGHT = 60;
+const SCROLLPADDING = 20;
+
+// light dark mode switches
+
 const lightDarkSwitch = document.getElementById("lightdarkswitch");
 let darkMode = false;
 let lightDarkTimer = -1;
@@ -13,7 +18,6 @@ lightDarkSwitch.addEventListener('click', function() {
     } else {
         lightDarkSwitch.src = "./img/lightmode.png";
     }
-    console.log(darkMode);
 })
 
 window.setInterval(changeLightDarkTimer, 16);
@@ -36,6 +40,26 @@ function changeLightDarkTimer() {
         lightDarkTimer--;
     }
 }
+
+// page scrolling
+
+document.getElementById("sendtotop").addEventListener('click', function() {
+    let y = document.getElementById("mainpageimage").getBoundingClientRect().top + window.scrollY - TOP_BAR_HEIGHT;
+    window.scroll({
+        top: y,
+        behavior: 'smooth'
+    });
+})
+
+document.getElementById("sendtoaboutus").addEventListener('click', function() {
+    let y = document.getElementById("aboutus").getBoundingClientRect().top + window.scrollY - TOP_BAR_HEIGHT - SCROLLPADDING;
+    window.scroll({
+        top: y,
+        behavior: 'smooth'
+    });
+})
+
+// lerp
 
 function lerp(a, b, t) {
 	return a + (b - a) * t;
