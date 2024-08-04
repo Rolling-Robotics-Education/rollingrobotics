@@ -60,6 +60,12 @@ p {
     cursor: pointer;
 }
 
+#bottombar {
+    height: 100px;
+    width: 100%;
+    background-color: #452080;
+}
+
 #aboutus {
     width: 80%;
     background-color: #ffffff55;
@@ -71,6 +77,26 @@ p {
 }
 
 #impact {
+    width: 80%;
+    background-color: #ffffff55;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+#schedule {
+    width: 80%;
+    background-color: #ffffff55;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+#sponsors {
     width: 80%;
     background-color: #ffffff55;
     border-radius: 25px;
