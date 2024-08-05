@@ -4,8 +4,17 @@ const SCROLLPADDING = 20;
 // light dark mode switches
 
 const lightDarkSwitch = document.getElementById("lightdarkswitch");
-let darkMode = false;
+let darkMode = sessionStorage.getItem('darkMode');
 let lightDarkTimer = -1;
+if (darkMode == null || darkMode == 'false') {
+    darkMode = false;
+}
+if (darkMode == 'true') {
+    darkMode = true;
+    lightDarkSwitch.src = "./img/darkmode.png";
+    lightDarkTimer = 0;
+    changeLightDarkTimer();
+}
 
 lightDarkSwitch.addEventListener('click', function() {
     if (lightDarkTimer <= 0) {
@@ -13,8 +22,10 @@ lightDarkSwitch.addEventListener('click', function() {
         lightDarkTimer = 60;
     }
     if (darkMode) {
+        sessionStorage.setItem('darkMode', 'true');
         lightDarkSwitch.src = "./img/darkmode.png";
     } else {
+        sessionStorage.setItem('darkMode', 'false');
         lightDarkSwitch.src = "./img/lightmode.png";
     }
 })
@@ -39,48 +50,6 @@ function changeLightDarkTimer() {
         lightDarkTimer--;
     }
 }
-
-// page scrolling
-
-document.getElementById("sendtotop").addEventListener('click', function() {
-    let y = document.getElementById("mainpageimage").getBoundingClientRect().top + window.scrollY - TOP_BAR_HEIGHT;
-    window.scroll({
-        top: y,
-        behavior: 'smooth'
-    });
-});
-
-document.getElementById("sendtoaboutus").addEventListener('click', function() {
-    let y = document.getElementById("aboutus").getBoundingClientRect().top + window.scrollY - TOP_BAR_HEIGHT - SCROLLPADDING;
-    window.scroll({
-        top: y,
-        behavior: 'smooth'
-    });
-});
-
-document.getElementById("sendtoimpact").addEventListener('click', function() {
-    let y = document.getElementById("impact").getBoundingClientRect().top + window.scrollY - TOP_BAR_HEIGHT - SCROLLPADDING;
-    window.scroll({
-        top: y,
-        behavior: 'smooth'
-    });
-});
-
-document.getElementById("sendtoschedule").addEventListener('click', function() {
-    let y = document.getElementById("schedule").getBoundingClientRect().top + window.scrollY - TOP_BAR_HEIGHT - SCROLLPADDING;
-    window.scroll({
-        top: y,
-        behavior: 'smooth'
-    });
-});
-
-document.getElementById("sendtosponsors").addEventListener('click', function() {
-    let y = document.getElementById("sponsors").getBoundingClientRect().top + window.scrollY - TOP_BAR_HEIGHT - SCROLLPADDING;
-    window.scroll({
-        top: y,
-        behavior: 'smooth'
-    });
-});
 
 // lerp
 

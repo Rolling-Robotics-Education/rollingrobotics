@@ -55,9 +55,43 @@ p {
     margin-top: 12px;
 }
 
+.biglogobutton {
+    height: 60px;
+    width: 320px;
+    white-space: nowrap;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    display: flex;
+}
+
+.biglogobutton:hover {
+    background-color: #883fff;
+}
+
+.biglogobutton img {
+    float: left;
+}
+
+.biglogobutton p {
+    text-align: center;
+    width: auto;
+}
+
 #topbar #lightdarkswitch {
     height: 60px;
     cursor: pointer;
+}
+
+.imageandtext img {
+    display: flex;
+    float: left;
+    height: 100%;
+}
+
+.imageandtext p {
+    display: flex;
+    padding: 10px;
 }
 
 #bottombar {
@@ -106,14 +140,30 @@ p {
     font-size: 30px;
 }
 
+#sidepagemodule {
+    width: 80%;
+    background-color: #ffffff55;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-size: 30px;
+}
+
 .largeimage {
     width: 100%;
 }
 
 .header {
     font-size: 60px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.smallheader {
+    font-size: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .centered {
@@ -128,4 +178,8 @@ p {
 
 .whitetext {
     color: white;
+}
+
+.floatright {
+    float: inline-end;
 }
