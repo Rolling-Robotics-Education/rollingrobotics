@@ -309,7 +309,7 @@ display: inline-block;
 }
 #featured .flexslider:after {
 content:'';
-background: rgba(17, 218, 180, 0.67);
+background: rgba(149, 186, 255, 0.695);
 position:absolute;
 top:0px;
 z-index:6;
