@@ -738,7 +738,7 @@ form#commentform textarea {
 .item-thumbs {
 	position: relative;
 	overflow: hidden;
-	margin-bottom: 30px;
+	margin-bottom: 60px;
 	cursor: pointer;
 }
 
