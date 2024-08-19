@@ -14,7 +14,7 @@ body {
 	font-size: 14px;
 	font-weight: 300;
 	line-height: 1.6em;
-	color: #656565;
+	color: #000000;
 }
 
 a:active {
@@ -34,7 +34,7 @@ h6 {
 	font-family: 'Open Sans', Arial, sans-serif;
 	font-weight: 700;
 	line-height: 1.1em;
-	color: #333;
+	color: #00102b;
 	margin-bottom: 20px;
 }
 
@@ -95,7 +95,7 @@ header .navbar {
 }
 
 .navbar-default .navbar-brand {
-	color: #2FADDE;
+	color: #2369ff;
 }
 
 .logo-text-container {
@@ -290,7 +290,7 @@ header ul.nav li ul li ul {
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
-	color: #37A691;
+	color: #0035b9;
 	/* background: #52C2AD; */
 	/* border: 1px solid #3AA994 !important; */
 }
@@ -325,7 +325,7 @@ select.selectmenu {
 
 #featured .flexslider {
 	padding: 0;
-	background: #10264d;
+	background: #002667;
 	position: relative;
 	/* zoom: 52; */
 }
@@ -581,7 +581,7 @@ section.callaction {
 ==================================== */
 
 #inner-headline {
-	background: #0E987E;
+	background: #0046dc;
 	position: relative;
 	margin: 0;
 	padding: 0;
@@ -642,7 +642,7 @@ ul.breadcrumb li a:hover {
 
 .feature_grid1 .fa {
 	color: #6E6E6E;
-	border: 1px solid #0A6352;
+	border: 1px solid #00146d;
 	border-radius: 50%;
 	width: 85px;
 	height: 85px;
@@ -669,7 +669,7 @@ ul.breadcrumb li a:hover {
 	font-size: 1em;
 	cursor: pointer;
 	border: 1px solid #E6E6E6;
-	background: #37907F;
+	background: #3258ff;
 	color: #FFF;
 	font-weight: 500;
 	text-decoration: none;
@@ -947,7 +947,7 @@ ul.portfolio-categ li a:active {
 	width: 18px;
 	height: 18px;
 	margin-right: 5px;
-	color: #046E5A;
+	color: #003dae;
 	text-align: center;
 	/* border-radius: 50%; */
 	margin-left: 6px;
@@ -1070,7 +1070,7 @@ blockquote cite a:visited {
 /* --- button --- */
 .btn {
 	text-align: center;
-	background: #14987F;
+	background: #001e95;
 	color: #fff;
 	border-radius: 0;
 	border: 0;
@@ -1097,6 +1097,13 @@ ul.link-list {
 	list-style: none;
 }
 
+ul.list {
+	margin: 0;
+	padding: 2px 0 2px 0;
+	list-style: none;
+	color: #000;
+}
+
 ul.link-list li {
 	margin: 0;
 	padding: 2px 0 2px 0;
@@ -1104,7 +1111,7 @@ ul.link-list li {
 }
 
 footer {
-	background: #046E5A;
+	background: hsl(229, 100%, 15%);
 }
 
 footer ul.link-list li a {
@@ -1352,7 +1359,7 @@ ul.team-detail li ul.social-network li i {
 
 .pricing-box-item .pricing-terms {
 	text-align: center;
-	background: #0E987E;
+	background: #0032ba;
 	display: block;
 	overflow: hidden;
 	padding: 11px 0 5px;
@@ -1481,7 +1488,7 @@ ul.social-network li {
 	padding: 0;
 	padding-top: 30px;
 	margin: 20px 0 0 0;
-	background: #002821;
+	background: #011336;
 }
 
 #sub-footer p {
@@ -1664,7 +1671,7 @@ a.feature_btn:hover {
 .btn-default.active,
 .open .dropdown-toggle.btn-default {
 	color: #FFF;
-	background-color: #12B293;
+	background-color: #0031b8;
 }
 
 .txtContent p {
