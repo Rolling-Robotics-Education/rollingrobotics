@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Emma Fu",
   "license": "ISC",
   "dependencies": {
     "express": "^4.21.0"
