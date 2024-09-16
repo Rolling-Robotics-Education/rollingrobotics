@@ -1,10 +1,10 @@
 {
   "name": "rollingrobotics",
   "version": "1.0.0",
-  "description": "yes",
+  "description": "This is a website for Rolling Robotics Education.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    
   },
   "keywords": [],
   "author": "Emma Fu",
