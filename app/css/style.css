@@ -1901,3 +1901,17 @@ a.feature_btn:hover {
 
 
 }
+
+#main-slider .slides img {
+  max-height: 450px;
+  width: auto;
+  margin: 0 auto;
+  display: block;
+  object-fit: cover;
+}
+@media (max-width: 767px) {
+  #main-slider .slides img {
+    max-height: 220px;
+    width: 100%;
+  }
+}
