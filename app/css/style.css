@@ -1609,15 +1609,29 @@ article .align-right {
 
 .intro-paragraph {	
 	position: relative;
-	left: 20px;
-	font-size: 25px;
-	line-height: 1.5;
-	width: 70%;
-	/* Width of the element */
-	height: 50px;
-	/* Height of the element */
-	margin: 50px;
-	/* Outside space */
+	left: 0;
+	font-size: 22px;
+	line-height: 1.6;
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 20px 0 30px 0;
+	padding: 10px 0 0 0;
+	display: block;
+	background: none;
+	box-sizing: border-box;
+	word-break: break-word;
+}
+
+@media (max-width: 767px) {
+  .intro-paragraph {
+    font-size: 18px;
+    line-height: 1.5;
+    width: 100%;
+    margin: 15px 0 25px 0;
+    padding: 0;
+    left: 0;
+  }
 }
 
 .clear-marginbot {
