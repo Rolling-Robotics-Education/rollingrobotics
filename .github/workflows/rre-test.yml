@@ -35,15 +35,25 @@ jobs:
       - name: Build application
         run: npm run build
      
-      - name: Upload build artifacts only
+      - name: Prepare standalone deployment
+        run: |
+          # Copy the standalone server and its dependencies
+          cp -r .next/standalone ./deploy
+          
+          # Copy static files to the standalone directory
+          cp -r .next/static ./deploy/.next/static
+          cp -r public ./deploy/public
+          
+          # Verify the structure
+          echo "Standalone deployment structure:"
+          ls -la ./deploy
+          ls -la ./deploy/.next
+
+      - name: Upload deployment package
         uses: actions/upload-artifact@v4
         with:
           name: node-app
-          path: |
-            .next
-            public
-            package*.json
-            next.config.js
+          path: ./deploy
 
   deploy:
     runs-on: ubuntu-latest
@@ -73,5 +83,5 @@ jobs:
           BASE_URL="https://${{ env.AZURE_WEBAPP_NAME }}.azurewebsites.net"
           for path in /; do
             echo "Warming $BASE_URL$path"
-            curl -fsS -m 10 -o /dev/null "$BASE_URL$path" || true
+            curl -fsS -m 100 -o /dev/null "$BASE_URL$path" || true
           done
