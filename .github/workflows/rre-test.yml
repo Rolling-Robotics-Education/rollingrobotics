@@ -35,52 +35,15 @@ jobs:
       - name: Build application
         run: npm run build
      
-      - name: Verify build output
-        run: |
-          ls -la .next/
-          echo "Build completed successfully"
-
-      - name: Prepare for deployment
-        run: |
-          # Create a clean package.json for production
-          node -e "
-          const pkg = require('./package.json');
-          delete pkg.devDependencies;
-          delete pkg.scripts.dev;
-          require('fs').writeFileSync('./package.json', JSON.stringify(pkg, null, 2));
-          "
-          
-          # Remove unnecessary files
-          rm -rf .git
-          rm -rf .github
-          rm -rf node_modules/.cache
-          rm -rf .next/cache
-          rm -rf src
-          rm -f *.md
-          rm -f *.config.js
-          rm -f tsconfig.json
-
-      - name: Reinstall production dependencies
-        run: |
-          rm -rf node_modules
-          npm install --production
-          # Verify Next.js is still properly installed
-          npx next --version
-          ls -la node_modules/next/dist/server/
-
-      - name: Create deployment package
-        run: |
-          zip -r release.zip . -x \
-            "*.git*" \
-            ".next/cache/*" \
-            "node_modules/.cache/*" \
-            "*.log"
-
-      - name: Upload artifact for deployment job
+      - name: Upload build artifacts only
         uses: actions/upload-artifact@v4
         with:
           name: node-app
-          path: release.zip
+          path: |
+            .next
+            public
+            package*.json
+            next.config.js
 
   deploy:
     runs-on: ubuntu-latest
@@ -94,9 +57,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: node-app
-
-      - name: Unzip artifact for deployment
-        run: unzip release.zip
+          path: .
       
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
@@ -106,3 +67,11 @@ jobs:
           slot-name: 'Production'
           package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_34B7927A69724390BEE59FB26EEF9F33 }}
+      
+      - name: Warm critical routes
+        run: |
+          BASE_URL="https://${{ env.AZURE_WEBAPP_NAME }}.azurewebsites.net"
+          for path in / do
+            echo "Warming $BASE_URL$path"
+            curl -fsS -m 10 -o /dev/null "$BASE_URL$path" || true
+          done
