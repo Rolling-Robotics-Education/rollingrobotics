@@ -12,7 +12,7 @@ on:
 env:
   AZURE_WEBAPP_NAME: 'rre-test'
   AZURE_WEBAPP_PACKAGE_PATH: '.'
-  NODE_VERSION: '22.x'
+  NODE_VERSION: '20.x'
 
 jobs:
   build:
@@ -71,7 +71,7 @@ jobs:
       - name: Warm critical routes
         run: |
           BASE_URL="https://${{ env.AZURE_WEBAPP_NAME }}.azurewebsites.net"
-          for path in / do
+          for path in /; do
             echo "Warming $BASE_URL$path"
             curl -fsS -m 10 -o /dev/null "$BASE_URL$path" || true
           done
