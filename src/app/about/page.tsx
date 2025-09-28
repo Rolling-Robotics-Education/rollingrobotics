@@ -45,7 +45,7 @@ export default function AboutPage() {
                 </li>
                 <li className="flex justify-between">
                   <span className="text-gray-600 dark:text-gray-300">Awards Won:</span>
-                  <span className="font-semibent text-gray-900 dark:text-white">25+</span>
+                  <span className="font-semibold text-gray-900 dark:text-white">25+</span>
                 </li>
                 <li className="flex justify-between">
                   <span className="text-gray-600 dark:text-gray-300">Location:</span>
