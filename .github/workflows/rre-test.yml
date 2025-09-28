@@ -34,18 +34,14 @@ jobs:
 
       - name: Build application
         run: npm run build
-
-      - name: Install production dependencies
-        run: npm ci --omit=dev
-
+     
       - name: Create deployment package
         run: |
-          # Remove dev dependencies and unnecessary files
-          rm -rf node_modules/.cache
-          rm -rf .git
-          rm -rf .github
-          # Create zip with only necessary files
-          zip -r release.zip . -x "*.git*" "node_modules/.cache/*" ".next/cache/*"
+          # Simple packaging - keep everything except git and cache
+          zip -r release.zip . -x \
+            "*.git*" \
+            ".next/cache/*" \
+            "node_modules/.cache/*"
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
