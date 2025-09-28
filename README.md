@@ -218,7 +218,7 @@ The static export works with:
 ## 📞 Contact
 
 **Rolling Robotics Education**
-- Email: contact@rollingroboticseducation.onmicrosoft.com
+- Email: contact@rollingrobotics.org
 - Address: 22540 NE 92nd St, Redmond, WA 98053
 - Website: [rollingrobotics.org](https://rollingrobotics.org)
 
