@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     siteName: 'Rolling Robotics Education',
     images: [
       {
-        url: '/images/og-image.jpg',
+        url: '/images/logo_2.png',
         width: 1200,
         height: 630,
         alt: 'Rolling Robotics Education'
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Rolling Robotics Education',
     description: 'Empowering students through robotics education, mentorship, and innovation.',
-    images: ['/images/og-image.jpg']
+    images: ['/images/logo_2.png']
   },
   robots: {
     index: true,

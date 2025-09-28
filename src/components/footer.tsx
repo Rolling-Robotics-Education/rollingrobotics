@@ -13,7 +13,7 @@ const navigation = {
   social: [
     {
       name: 'Email',
-      href: 'mailto:contact@rollingroboticseducation.onmicrosoft.com',
+      href: 'mailto:contact@rollingrobotics.org',
       icon: EnvelopeIcon,
     },
   ],
@@ -62,10 +62,10 @@ export function Footer() {
               <div className="flex items-center space-x-3">
                 <EnvelopeIcon className="h-5 w-5 text-gray-400 flex-shrink-0" />
                 <a 
-                  href="mailto:contact@rollingroboticseducation.onmicrosoft.com"
+                  href="mailto:contact@rollingrobotics.org"
                   className="text-sm text-gray-400 hover:text-white transition-colors duration-200"
                 >
-                  contact@rollingroboticseducation.onmicrosoft.com
+                  contact@rollingrobotics.org
                 </a>
               </div>
             </div>

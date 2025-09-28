@@ -5,7 +5,7 @@ import { useInView } from 'framer-motion'
 import { useRef } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
-import { ArrowRightIcon, CogIcon, RocketLaunchIcon, AcademicCapIcon } from '@heroicons/react/24/outline'
+import { ArrowRightIcon, CogIcon } from '@heroicons/react/24/outline'
 
 const programs = [
   {
@@ -18,7 +18,7 @@ const programs = [
     ages: '12-18 years',
     duration: 'September - April'
   },
-  {
+  /*{
     id: 2,
     title: 'FIRST LEGO League',
     description: 'Hands-on STEM program that challenges kids to think creatively and develop problem-solving skills.',
@@ -37,7 +37,7 @@ const programs = [
     features: ['Basic Programming', 'Robot Building', 'Problem Solving', 'STEM Concepts'],
     ages: '8-16 years',
     duration: 'Year-round'
-  }
+  }*/
 ]
 
 export function ProgramsPreview() {
@@ -68,7 +68,8 @@ export function ProgramsPreview() {
           </Link>
         </motion.div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="flex justify-center">
+          <div className="grid grid-cols-1 gap-8 max-w-md">
           {programs.map((program, index) => (
             <motion.div
               key={program.id}
@@ -128,6 +129,7 @@ export function ProgramsPreview() {
               </Link>
             </motion.div>
           ))}
+          </div>
         </div>
       </div>
     </section>
