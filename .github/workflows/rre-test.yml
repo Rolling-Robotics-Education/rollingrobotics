@@ -35,13 +35,46 @@ jobs:
       - name: Build application
         run: npm run build
      
+      - name: Verify build output
+        run: |
+          ls -la .next/
+          echo "Build completed successfully"
+
+      - name: Prepare for deployment
+        run: |
+          # Create a clean package.json for production
+          node -e "
+          const pkg = require('./package.json');
+          delete pkg.devDependencies;
+          delete pkg.scripts.dev;
+          require('fs').writeFileSync('./package.json', JSON.stringify(pkg, null, 2));
+          "
+          
+          # Remove unnecessary files
+          rm -rf .git
+          rm -rf .github
+          rm -rf node_modules/.cache
+          rm -rf .next/cache
+          rm -rf src
+          rm -f *.md
+          rm -f *.config.js
+          rm -f tsconfig.json
+
+      - name: Reinstall production dependencies
+        run: |
+          rm -rf node_modules
+          npm install --production
+          # Verify Next.js is still properly installed
+          npx next --version
+          ls -la node_modules/next/dist/server/
+
       - name: Create deployment package
         run: |
-          # Simple packaging - keep everything except git and cache
           zip -r release.zip . -x \
             "*.git*" \
             ".next/cache/*" \
-            "node_modules/.cache/*"
+            "node_modules/.cache/*" \
+            "*.log"
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
