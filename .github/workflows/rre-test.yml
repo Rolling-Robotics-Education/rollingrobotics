@@ -6,7 +6,7 @@ name: Build and deploy Node.js app to Azure Web App - rre-test
 on:
   push:
     branches:
-      - copilot/fix-2703cec8-076c-4633-b622-d4d3fbc2569f
+      - main
   workflow_dispatch:
 
 env:
@@ -83,5 +83,5 @@ jobs:
           BASE_URL="https://${{ env.AZURE_WEBAPP_NAME }}.azurewebsites.net"
           for path in /; do
             echo "Warming $BASE_URL$path"
-            curl -fsS -m 100 -o /dev/null "$BASE_URL$path" || true
+            curl -fsS -m 180 -o /dev/null "$BASE_URL$path" || true
           done

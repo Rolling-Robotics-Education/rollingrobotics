@@ -4,10 +4,12 @@
 name: Build and deploy Node.js app to Azure Web App - rre
 
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
+    inputs:
+      deploy_reason:
+        description: 'Reason for production deployment'
+        required: true
+        default: 'Manual production release'
 
 env:
   AZURE_WEBAPP_NAME: 'rre'    # set this to your application's name
@@ -25,20 +27,33 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ env.NODE_VERSION }}
+          cache: 'npm'
 
-      - name: npm install, build, and test
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build application
+        run: npm run build
+     
+      - name: Prepare standalone deployment
         run: |
-          npm install
-          npm run build --if-present
+          # Copy the standalone server and its dependencies
+          cp -r .next/standalone ./deploy
+          
+          # Copy static files to the standalone directory
+          cp -r .next/static ./deploy/.next/static
+          cp -r public ./deploy/public
+          
+          # Verify the structure
+          echo "Standalone deployment structure:"
+          ls -la ./deploy
+          ls -la ./deploy/.next
 
-      - name: Zip artifact for deployment
-        run: zip release.zip ./* -r
-
-      - name: Upload artifact for deployment job
+      - name: Upload deployment package
         uses: actions/upload-artifact@v4
         with:
           name: node-app
-          path: release.zip
+          path: ./deploy
 
   deploy:
     runs-on: ubuntu-latest
@@ -52,9 +67,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: node-app
-
-      - name: Unzip artifact for deployment
-        run: unzip release.zip
+          path: .
       
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
@@ -64,3 +77,11 @@ jobs:
           slot-name: 'Production'
           package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9C4929F890094AFD9F9DC997FE6BAF4D }}
+      
+      - name: Warm critical routes
+        run: |
+          BASE_URL="https://${{ env.AZURE_WEBAPP_NAME }}.azurewebsites.net"
+          for path in /; do
+            echo "Warming $BASE_URL$path"
+            curl -fsS -m 180 -o /dev/null "$BASE_URL$path" || true
+          done
