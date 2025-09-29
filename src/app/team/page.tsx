@@ -35,9 +35,9 @@ export default function TeamPage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Abigail</h3>
-                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Outreach Team • Sophomore at Redmond High School</p>
+                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Outreach Team • Junior at Redmond High School</p>
                 <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-                  Hi! My name is Abigail, and I&apos;m a sophomore at Redmond High School. Currently, I&apos;m part of the outreach subteam. I joined this team to have the opportunity to practice real-life soft skills and to make an impact in the community. Apart from robotics, I&apos;m a violinist and pianist.
+                  Hi! My name is Abigail, and I&apos;m a junior at Redmond High School. Currently, I&apos;m part of the outreach subteam. I joined this team to have the opportunity to practice real-life soft skills and to make an impact in the community. Apart from robotics, I&apos;m a violinist and pianist.
                 </p>
               </div>
             </div>
@@ -55,9 +55,9 @@ export default function TeamPage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Aiden</h3>
-                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Hardware Team • 7th Grade at The Bear Creek School</p>
+                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Hardware Team • 8th Grade at The Bear Creek School</p>
                 <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-                  Hi, my name is Aiden King, this year I&apos;m a 7th grader at The Bear Creek School. Currently, I&apos;m on the hardware team, and particularly interested in CAD design. Outside of FTC, I&apos;m interested in a variety of things, including track and field and cross country.
+                  Hi, my name is Aiden King, this year I&apos;m a 8th grader at The Bear Creek School. Currently, I&apos;m on the hardware team, and particularly interested in CAD design. Outside of FTC, I&apos;m interested in a variety of things, including track and field and cross country.
                 </p>
               </div>
             </div>
@@ -74,9 +74,9 @@ export default function TeamPage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Emma</h3>
-                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Software Team & Graphic Designer • 7th Grade at Timberline Middle School</p>
+                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Software + Outreach Team & Graphic Designer • 8th Grade at Timberline Middle School</p>
                 <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-                  Hi! I&apos;m Emma, and I&apos;m a 7th grader at Timberline Middle School. I&apos;m currently part of the software team and a graphic designer. I joined Sushi Squad to learn more about robotics, being a programmer, and being part of a team. Outside of robotics and engineering I like playing video games/Genshin Impact, drawing on my tablet/sketching on my sketchbook, cross country, eating and mushroom hunting with my dad.
+                  Hi! I&apos;m Emma, and I&apos;m a 8th grader at Timberline Middle School. I&apos;m currently part of the outreach team, work on a bit of software, and a graphic designer. I joined Sushi Squad to learn more about robotics, being a programmer, and being part of a team. Outside of robotics and engineering, I enjoy kpop and drawing, and play the flute.
                 </p>
               </div>
             </div>
@@ -94,9 +94,9 @@ export default function TeamPage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Iris</h3>
-                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Strategy Team • Sophomore at Redmond High School</p>
+                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Strategy Team • Junior at Redmond High School</p>
                 <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-                  Hello! My name is Iris, and I am a sophomore at Redmond High School. I am on the strategy team. I joined FTC because I enjoy learning about engineering and working with a team to achieve a certain goal. In my free time I enjoy listening to music and writing.
+                  Hello! My name is Iris, and I am a junior at Redmond High School. I am on the strategy team. I joined FTC because I enjoy learning about engineering and working with a team to achieve a certain goal. In my free time I enjoy listening to music and writing.
                 </p>
               </div>
             </div>
@@ -113,9 +113,9 @@ export default function TeamPage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Jeffrey</h3>
-                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Hardware Lead • Junior at Redmond High School</p>
+                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Hardware Lead • Senior at Redmond High School</p>
                 <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-                  Hey there! I&apos;m Jeffrey, a junior at Redmond High School. I am currently the hardware lead of the team. I joined this team to deepen my understanding in robotics, as well as to practice working in a team. Outside of robotics, I like playing video games and listening to music.
+                  Hey there! I&apos;m Jeffrey, a senior at Redmond High School. I am currently the hardware lead of the team. I joined this team to deepen my understanding in robotics, as well as to practice working in a team. Outside of robotics, I like playing video games and listening to music.
                 </p>
               </div>
             </div>
@@ -132,9 +132,9 @@ export default function TeamPage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Julia</h3>
-                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Outreach Lead • Junior at Redmond High School</p>
+                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Outreach Lead • Senior at Redmond High School</p>
                 <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-                  Hi, I&apos;m Julia and I&apos;m a junior attending Redmond High School. On this team, I&apos;m the outreach lead. In my free time, I draw, write, read, practice piano, and play badminton. I joined FIRST Tech Challenge because I&apos;ve enjoyed doing other robotics competitions in the past and hope to learn more by working with a team.
+                  Hi, I&apos;m Julia and I&apos;m a senior attending Redmond High School. On this team, I&apos;m the outreach lead. In my free time, I draw, write, read, practice piano, and play badminton. I joined FIRST Tech Challenge because I&apos;ve enjoyed doing other robotics competitions in the past and hope to learn more by working with a team.
                 </p>
               </div>
             </div>
@@ -151,9 +151,9 @@ export default function TeamPage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Kerrie</h3>
-                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Hardware Team • 7th Grade at Timberline Middle School</p>
+                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Hardware Team • 8th Grade at Timberline Middle School</p>
                 <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-                  Hello there, my name is Kerrie and I am a 7th grader at Timberline Middle School. I am part of the hardware team. I like watching YouTube and playing video games. I joined this FIRST Tech Challenge team to explore more on the mechanic field.
+                  Hello there, my name is Kerrie and I am a 8th grader at Timberline Middle School. I am part of the hardware team. I like watching YouTube and playing video games. I joined this FIRST Tech Challenge team to explore more on the mechanic field.
                 </p>
               </div>
             </div>
@@ -170,9 +170,9 @@ export default function TeamPage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Sihan</h3>
-                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Team Captain • Junior at Redmond High School</p>
+                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Team Captain • Senior at Redmond High School</p>
                 <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-                  Hi! I&apos;m Sihan and I&apos;m currently a junior at Redmond High School. I am the team captain and part of the software and outreach boards. I joined Sushi Squad to learn new skills in a fun and challenging environment. Outside of robotics, I like music and reading.
+                  Hi! I&apos;m Sihan and I&apos;m currently a senior at Redmond High School. I am the team captain and part of the software and outreach boards. I joined Sushi Squad to learn new skills in a fun and challenging environment. Outside of robotics, I like music and reading.
                 </p>
               </div>
             </div>
