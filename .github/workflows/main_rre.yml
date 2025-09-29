@@ -48,14 +48,21 @@ jobs:
           
           # Verify the structure
           echo "Standalone deployment structure:"
+          echo "Contents of deploy:"
           ls -la ./deploy
+          echo "Contents of deploy/.next:"
           ls -la ./deploy/.next
+
+          tar -czf deploy.tgz -C deploy .
+          ls -la
+          tar -tzf deploy.tgz | head -n 50
 
       - name: Upload deployment package
         uses: actions/upload-artifact@v4
         with:
           name: node-app
-          path: ./deploy
+          path: deploy.tgz
+          if-no-files-found: error
 
   deploy:
     runs-on: ubuntu-latest
@@ -70,6 +77,10 @@ jobs:
         with:
           name: node-app
           path: .
+
+      - name: Extract deployment
+        run: |
+          tar -xzf deploy.tgz
       
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
