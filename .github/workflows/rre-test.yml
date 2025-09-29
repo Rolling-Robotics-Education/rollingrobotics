@@ -43,10 +43,7 @@ jobs:
           # Copy static files to the standalone directory
           cp -r .next/static ./deploy/.next/static
           cp -r public ./deploy/public
-
-          # Create package.json with correct start script for production
-          echo '{"scripts":{"start":"node server.js"}}' > ./deploy/package.json
-          
+                  
           # Verify the structure
           echo "Standalone deployment structure:"
           ls -la ./deploy
