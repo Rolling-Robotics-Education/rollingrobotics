@@ -135,13 +135,6 @@ For Azure deployment:
    - Output directory: `out`
 3. **Set up www redirect** in Azure configuration
 
-### Other Platforms
-
-The static export works with:
-- **Vercel**: Deploy directly from GitHub
-- **Netlify**: Drag and drop the `out/` folder
-- **GitHub Pages**: Enable Pages with the `out/` directory
-- **AWS S3**: Upload the `out/` directory contents
 
 ## 🎨 Design System
 
@@ -219,12 +212,11 @@ The static export works with:
 
 **Rolling Robotics Education**
 - Email: contact@rollingrobotics.org
-- Address: 22540 NE 92nd St, Redmond, WA 98053
 - Website: [rollingrobotics.org](https://rollingrobotics.org)
 
 ## 📄 License
 
-This project is licensed under the ISC License - see the original package.json for details.
+This project is licensed under the MIT License.
 
 ---
 
