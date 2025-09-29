@@ -2,7 +2,7 @@
 
 A modern, responsive website built with Next.js, TypeScript, and Tailwind CSS for Rolling Robotics Education - empowering students through robotics education, mentorship, and innovation.
 
-![Rolling Robotics Website](https://github.com/user-attachments/assets/2c478ad4-0e47-4e24-b28b-88d586ace926)
+[Rolling Robotics Website](https://rollingrobotics.org)
 
 ## 🚀 Features
 
