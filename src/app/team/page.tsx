@@ -158,6 +158,25 @@ export default function TeamPage() {
               </div>
             </div>
 
+            {/* Max */}
+            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden hover:shadow-xl transition-shadow duration-300">
+              <div className="aspect-square overflow-hidden relative">
+                <Image 
+                  src="/images/sushi/max.png" 
+                  alt="Max" 
+                  fill
+                  className="object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Max</h3>
+                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Hardware Team • Senior at Redmond High School</p>
+                <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
+                  Hi, I&apos;m Max and I&apos;m a Senior at Redmond High School. I am part of the hardware team. In my free time, I enjoy playing piano, playing video games, and hanging out with friends. I joined FIRST Tech Challenge to gain more experience in robotics and mechanical engineering.
+                </p>
+              </div>
+            </div>
+
             {/* Sihan */}
             <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden hover:shadow-xl transition-shadow duration-300">
               <div className="aspect-square overflow-hidden relative">
