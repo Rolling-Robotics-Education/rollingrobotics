@@ -104,7 +104,13 @@ export default function AboutPage() {
               </div>
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm border border-gray-200 dark:border-gray-700">
                 <div className="text-center">
-                  <h4 className="font-semibold text-gray-900 dark:text-white">Yuanyuan Cui</h4>
+                  <h4 className="font-semibold text-gray-900 dark:text-white">Abigail Li</h4>
+                  <p className="text-sm text-gray-600 dark:text-gray-400">Board Member</p>
+                 </div>
+              </div>
+              <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm border border-gray-200 dark:border-gray-700">
+                <div className="text-center">
+                  <h4 className="font-semibold text-gray-900 dark:text-white">Joyce Rong</h4>
                   <p className="text-sm text-gray-600 dark:text-gray-400">Board Member</p>
                 </div>
               </div>

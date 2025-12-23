@@ -43,7 +43,26 @@ export default function TeamPage() {
             </div>
 
            
-            {/* Aiden K */}
+            {/* Aabha */}
+            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden hover:shadow-xl transition-shadow duration-300">
+              <div className="aspect-square overflow-hidden relative">
+                <Image 
+                  src="/images/sushi/emma.jpg" 
+                  alt="Aabha" 
+                  fill
+                  className="object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Aabha</h3>
+                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Software + Outreach Team & Graphic Designer • 8th Grade at Timberline Middle School</p>
+                <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
+                   Hello! My name is Aabha, and I am an 8th grader at Timberline Middle School. I am on the software team and I joined Sushi Squad to learn more about being a programmer and working with a team. My hobbies in my outside time include piano and reading.
+                </p>
+              </div>
+            </div>
+
+            {/* Aiden */}
             <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden hover:shadow-xl transition-shadow duration-300">
               <div className="aspect-square overflow-hidden relative">
                 <Image 
@@ -57,10 +76,30 @@ export default function TeamPage() {
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Aiden</h3>
                 <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Hardware Team • 8th Grade at The Bear Creek School</p>
                 <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-                  Hi, my name is Aiden King, this year I&apos;m a 8th grader at The Bear Creek School. Currently, I&apos;m on the hardware team, and particularly interested in CAD design. Outside of FTC, I&apos;m interested in a variety of things, including track and field and cross country.
+                  Hi, my name is Aiden, this year I&apos;m a 8th grader at The Bear Creek School. Currently, I&apos;m on the hardware team, and particularly interested in CAD design. Outside of FTC, I&apos;m interested in a variety of things, including track and field and cross country.
                 </p>
               </div>
             </div>
+
+              {/* Amogh */}
+            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden hover:shadow-xl transition-shadow duration-300">
+              <div className="aspect-square overflow-hidden relative">
+                <Image 
+                  src="/images/sushi/amogh.jpg" 
+                  alt="Amogh" 
+                  fill
+                  className="object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Amogh</h3>
+                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Hardware Team • 8th Grade at The Bear Creek School</p>
+                <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
+                  Hi, my name is Amogh, and I am currently a freshman at Basis Independent Bellevue. I work in the hardware team and I am the backup driver for the team. I joined Sushi squad to learn more about building robots and start volunteering for outreach. Outside of the team, I play soccer competetively and enjoy playing video games.
+                </p>
+              </div>
+            </div>
+
 
             {/* Emma */}
             <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden hover:shadow-xl transition-shadow duration-300">
@@ -192,6 +231,25 @@ export default function TeamPage() {
                 <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Team Captain • Senior at Redmond High School</p>
                 <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
                   Hi! I&apos;m Sihan and I&apos;m currently a senior at Redmond High School. I am the team captain and part of the software and outreach boards. I joined Sushi Squad to learn new skills in a fun and challenging environment. Outside of robotics, I like music and reading.
+                </p>
+              </div>
+            </div>
+
+             {/* Sihan */}
+            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden hover:shadow-xl transition-shadow duration-300">
+              <div className="aspect-square overflow-hidden relative">
+                <Image 
+                  src="/images/sushi/yash.jpg" 
+                  alt="Yash" 
+                  fill
+                  className="object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Yash</h3>
+                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Hardware Team • 8th Grade at Odle Middle School</p>
+                <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
+                  Hi! I&apos;m Yash and I&apos;m currently an 8th grader at Odle Middle School. I am part of the hardware team. I’m in hardware and I joined Sushi Squad to move from Vex to something more advanced and to learn new skills. Other than robotics, I like to ski, and to play guitar.
                 </p>
               </div>
             </div>
