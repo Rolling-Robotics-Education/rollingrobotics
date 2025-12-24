@@ -47,7 +47,7 @@ export default function TeamPage() {
             <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden hover:shadow-xl transition-shadow duration-300">
               <div className="aspect-square overflow-hidden relative">
                 <Image 
-                  src="/images/sushi/emma.jpg" 
+                  src="/images/sushi/aabha.jpg" 
                   alt="Aabha" 
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-300"
@@ -55,7 +55,7 @@ export default function TeamPage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Aabha</h3>
-                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Software + Outreach Team & Graphic Designer • 8th Grade at Timberline Middle School</p>
+                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Software • 8th Grade at Timberline Middle School</p>
                 <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
                    Hello! My name is Aabha, and I am an 8th grader at Timberline Middle School. I am on the software team and I joined Sushi Squad to learn more about being a programmer and working with a team. My hobbies in my outside time include piano and reading.
                 </p>
