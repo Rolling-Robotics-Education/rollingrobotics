@@ -2,7 +2,7 @@ import { Metadata } from 'next'
 import Image from 'next/image'
 
 export const metadata: Metadata = {
-  title: 'Team - Rolling Robotics Education',
+  title: 'Teams - Rolling Robotics Education',
   description: 'Meet our dedicated mentors, passionate students, and supportive community members.',
 }
 
@@ -12,7 +12,7 @@ export default function TeamPage() {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 py-12">
         <div className="text-center mb-12">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white mb-6">
-            Our Team
+            Our Teams
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             Meet the dedicated mentors, passionate students, and supportive community members who make our mission possible.
@@ -93,7 +93,7 @@ export default function TeamPage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Amogh</h3>
-                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Hardware Team • 8th Grade at The Bear Creek School</p>
+                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Hardware Team • 8th Grade at The Basis Independent School</p>
                 <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
                   Hi, my name is Amogh, and I am currently a freshman at Basis Independent Bellevue. I work in the hardware team and I am the backup driver for the team. I joined Sushi squad to learn more about building robots and start volunteering for outreach. Outside of the team, I play soccer competetively and enjoy playing video games.
                 </p>
@@ -250,6 +250,108 @@ export default function TeamPage() {
                 <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Hardware Team • 8th Grade at Odle Middle School</p>
                 <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
                   Hi! I&apos;m Yash and I&apos;m currently an 8th grader at Odle Middle School. I am part of the hardware team. I’m in hardware and I joined Sushi Squad to move from Vex to something more advanced and to learn new skills. Other than robotics, I like to ski, and to play guitar.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* VEX Team Section */}
+        <div className="mb-16">
+          <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-8 text-center">Charged Creepers - VEX Robotics Team 84W</h2>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Jared */}
+            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden hover:shadow-xl transition-shadow duration-300">
+              <div className="aspect-square overflow-hidden relative">
+                <Image 
+                  src="/images/sushi/jared.jpg" 
+                  alt="Jared" 
+                  fill
+                  className="object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Jared Wen</h3>
+                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Age 12 • Builder/Driver</p>
+                <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
+                  Hi, my name is Jared, and I am a 7th grader at Timberline Middle School. In our team, I am a builder and driver. I primarily helped build the main robot and helped code autonomous. Outside of robotics, I enjoy playing basketball, swimming, and Science Olympiad.
+                </p>
+              </div>
+            </div>
+
+            {/* Eric */}
+            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden hover:shadow-xl transition-shadow duration-300">
+              <div className="aspect-square overflow-hidden relative">
+                <Image 
+                  src="/images/sushi/eric.jpg" 
+                  alt="Eric" 
+                  fill
+                  className="object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Eric Wang</h3>
+                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Age 12 • Builder/Driver</p>
+                <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
+                  Hi, my name is Eric, and I am a 7th grader at Timberline Middle School. My role in the team is builder and driver. I helped refine the robot design and worked on our engineering notebook. Outside of robotics, I enjoy playing tennis and photography.
+                </p>
+              </div>
+            </div>
+
+            {/* Letong */}
+            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden hover:shadow-xl transition-shadow duration-300">
+              <div className="aspect-square overflow-hidden relative">
+                <Image 
+                  src="/images/sushi/letong.png" 
+                  alt="Letong" 
+                  fill
+                  className="object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Letong Chen</h3>
+                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Age 12 • Builder/Driver</p>
+                <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
+                  Hello! My name is Letong, and I am a 7th grader at Timberline Middle School. I am a builder, driver, and the only girl on our team. I helped build the main robot. Outside of robotics, I like ice skating.
+                </p>
+              </div>
+            </div>
+
+            {/* Siyuan */}
+            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden hover:shadow-xl transition-shadow duration-300">
+              <div className="aspect-square overflow-hidden relative">
+                <Image 
+                  src="/images/sushi/siyuan.png" 
+                  alt="Siyuan" 
+                  fill
+                  className="object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Siyuan Chen</h3>
+                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Age 12 • Main Programmer</p>
+                <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
+                  Hi, my name is Siyuan, and I am a 7th grader at Timberline Middle School. I am the main programmer for our team. I primarily worked on coding the robot. Outside of robotics, I enjoy skiing, swimming, and running cross country.
+                </p>
+              </div>
+            </div>
+
+            {/* Henry */}
+            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg border border-gray-200 dark:border-gray-700 overflow-hidden hover:shadow-xl transition-shadow duration-300">
+              <div className="aspect-square overflow-hidden relative">
+                <Image 
+                  src="/images/sushi/henry.jpg" 
+                  alt="Henry" 
+                  fill
+                  className="object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="p-6">
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Henry Cheng</h3>
+                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Age 13 • Main Builder/Designer</p>
+                <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
+                  Hi! My name is Henry, and I am an 8th grader at International Community School. I am the main builder and designer for our team. I primarily worked on building and designing our robot. Outside of robotics, I enjoy swimming and skiing.
                 </p>
               </div>
             </div>
