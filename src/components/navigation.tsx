@@ -36,8 +36,8 @@ export function Navigation() {
   }
 
   return (
-    <header className={`fixed w-full z-50 transition-all duration-300 ${
-      scrolled ? 'bg-white/90 dark:bg-gray-900/90 backdrop-blur-md shadow-lg' : 'bg-transparent'
+    <header className={`fixed w-full z-50 transition-all duration-300 bg-white dark:bg-gray-900 ${
+      scrolled ? 'shadow-lg' : ''
     }`}>
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
