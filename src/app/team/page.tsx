@@ -35,9 +35,9 @@ export default function TeamPage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Abigail</h3>
-                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Outreach Team • Junior at Redmond High School</p>
+                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Co-Captain • Outreach Team • Junior at Redmond High School</p>
                 <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-                  Hi! My name is Abigail, and I&apos;m a junior at Redmond High School. Currently, I&apos;m part of the outreach subteam. I joined this team to have the opportunity to practice real-life soft skills and to make an impact in the community. Apart from robotics, I&apos;m a violinist and pianist.
+                  Hi! My name is Abigail, and I&apos;m a junior at Redmond High School. Currently, I&apos;m Co-captain and part of the outreach subteam. I joined this team to have the opportunity to practice real-life soft skills and to make an impact in the community. Apart from robotics, I&apos;m a violinist and pianist.
                 </p>
               </div>
             </div>
