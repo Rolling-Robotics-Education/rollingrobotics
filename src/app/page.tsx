@@ -5,11 +5,13 @@ import { ProgramsPreview } from '@/components/programs-preview'
 import { TeamPreview } from '@/components/team-preview'
 import { SponsorStrip } from '@/components/sponsor-strip'
 import { CallToAction } from '@/components/call-to-action'
+import { SeniorCelebration } from '@/components/senior-celebration'
 
 export default function Home() {
   return (
     <>
       <HeroSection />
+      <SeniorCelebration />
       <MissionSection />
       <StatsSection />
       <ProgramsPreview />
