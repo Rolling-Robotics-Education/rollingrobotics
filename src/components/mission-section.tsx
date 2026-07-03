@@ -44,7 +44,7 @@ export function MissionSection() {
               To empower and support robotics teams by providing access to resources, mentorship, and education, fostering a passion for technology, teamwork, and innovation in students from all backgrounds.
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-              We provide a welcoming and inclusive environment where young kids from all backgrounds can explore the fascinating world of robotics for educational purposes. We empower every child to delve into robotics, fostering teamwork, innovation, and hands-on learning in both mechanical and software realms. We ensure equal access for all, giving every child the opportunity to thrive. Our program is entirely funded by volunteers, showcasing our commitment to supporting the community and young learners.
+              We provide a welcoming and inclusive environment where young kids from all backgrounds can explore the fascinating world of robotics for educational purposes. We empower every child to delve into robotics, fostering teamwork, innovation, and hands-on learning in both mechanical and software realms. We ensure equal access for all, giving every child the opportunity to thrive. Our program is entirely funded by volunteers, showcasing our commitment to supporting the community and young learners. We are a 501(c)(3) nonprofit organization.
             </p>
           </div>
         </motion.div>

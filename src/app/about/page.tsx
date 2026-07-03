@@ -14,7 +14,7 @@ export default function AboutPage() {
             About Rolling Robotics Education
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Empowering students through robotics education, mentorship, and innovation since 2017.
+            We are a 501(c)(3) nonprofit organization. Empowering students through robotics education, mentorship, and innovation since 2017.
           </p>
         </div>
 
@@ -80,7 +80,7 @@ export default function AboutPage() {
               </div>
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm border border-gray-200 dark:border-gray-700">
                 <div className="text-center">
-                  <h4 className="font-semibold text-gray-900 dark:text-white">Jeffrey Liu</h4>
+                  <h4 className="font-semibold text-gray-900 dark:text-white">Emma Fu</h4>
                   <p className="text-sm text-blue-600 dark:text-blue-400">Secretary</p>
                 </div>
               </div>
@@ -92,7 +92,7 @@ export default function AboutPage() {
               </div>
               <div className="bg-white dark:bg-gray-800 rounded-lg p-6 shadow-sm border border-gray-200 dark:border-gray-700">
                 <div className="text-center">
-                  <h4 className="font-semibold text-gray-900 dark:text-white">Sihan Chen</h4>
+                  <h4 className="font-semibold text-gray-900 dark:text-white">Kerrie Liu</h4>
                   <p className="text-sm text-gray-600 dark:text-gray-400">Board Member</p>
                 </div>
               </div>
