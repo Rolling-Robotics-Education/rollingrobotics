@@ -32,10 +32,11 @@ const teamHighlights = [
 ]
 
 const achievements = [
-  '2024 Regional Champions',
+  'State Qualifiers Every Year',
+  '2024 World Qualifier',
+  '2024 Regional Champions',  
   '2023 Inspire Award Winners',
-  '2022 Innovation Challenge First Place',
-  'Multiple State Competition Qualifiers'
+  '2022 Innovation Challenge First Place'  
 ]
 
 export function TeamPreview() {

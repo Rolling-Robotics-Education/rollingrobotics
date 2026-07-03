@@ -4,7 +4,21 @@ import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef, useState, useEffect } from 'react'
 
-const stats = [
+type Stat = {
+  id: number
+  name: string
+  value: number
+  suffix: string
+  description: string
+}
+
+const FOUNDING_YEAR = 2017
+
+function getYearsOfImpact() {
+  return Math.max(new Date().getFullYear() - FOUNDING_YEAR, 1)
+}
+
+const stats: Stat[] = [
   {
     id: 1,
     name: 'Students Mentored',
@@ -15,7 +29,7 @@ const stats = [
   {
     id: 2,
     name: 'Years of Impact',
-    value: 7,
+    value: getYearsOfImpact(),
     suffix: '+',
     description: 'Since our founding in 2017'
   },
@@ -62,7 +76,7 @@ function useCountAnimation(end: number, duration: number = 2000, start: number =
   return { count, setIsActive }
 }
 
-function StatItem({ stat, delay }: { stat: typeof stats[0], delay: number }) {
+function StatItem({ stat, delay }: { stat: Stat, delay: number }) {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, amount: 0.5 })
   const { count, setIsActive } = useCountAnimation(stat.value)
