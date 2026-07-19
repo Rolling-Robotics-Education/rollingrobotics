@@ -67,6 +67,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     needs: build
+    permissions:
+      id-token: write # required for requesting the OIDC token
+      contents: read
     environment:
       name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
@@ -77,10 +80,17 @@ jobs:
         with:
           name: node-app
           path: .
-
+      
       - name: Extract deployment
         run: |
           tar -xzf deploy.tgz
+      
+      - name: Azure login (OIDC)
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
       
       - name: 'Deploy to Azure Web App'
         id: deploy-to-webapp
@@ -89,7 +99,6 @@ jobs:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
           slot-name: 'Production'
           package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9C4929F890094AFD9F9DC997FE6BAF4D }}
       
       - name: Warm critical routes
         run: |
