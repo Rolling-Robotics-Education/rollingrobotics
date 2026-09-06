@@ -64,47 +64,19 @@ export async function answerWithAzureFoundry(
     instructions: buildInstructions(),
     input: [
       {
+        type: 'message',
         role: 'developer',
-        content: `OFFICIAL SOURCE MATERIAL\n\n${sourceMaterial}`,
+        content: `Return the response as JSON using the contract in the instructions.\n\nOFFICIAL SOURCE MATERIAL\n\n${sourceMaterial}`,
       },
       ...messages.slice(-8).map((message) => ({
+        type: 'message' as const,
         role: message.role,
         content: message.content,
       })),
     ],
     text: {
-      verbosity: 'low',
       format: {
-        type: 'json_schema',
-        name: 'ftc_tutor_answer',
-        strict: true,
-        schema: {
-          type: 'object',
-          additionalProperties: false,
-          properties: {
-            inScope: {
-              type: 'boolean',
-              description:
-                'True only when the latest request is genuinely about FIRST Tech Challenge.',
-            },
-            answer: {
-              type: 'string',
-              description:
-                'A grounded, student-friendly Markdown answer, or an empty string when out of scope.',
-            },
-            usedSourceIds: {
-              type: 'array',
-              items: {
-                type: 'integer',
-                minimum: 1,
-                maximum: Math.max(sources.length, 1),
-              },
-              description:
-                'IDs of official sources actually used to produce the answer.',
-            },
-          },
-          required: ['inScope', 'answer', 'usedSourceIds'],
-        },
+        type: 'json_object',
       },
     },
   })
@@ -190,7 +162,11 @@ Grounding:
 Style:
 - Be concise, encouraging, and appropriate for students.
 - Prefer actionable steps and plain language.
-- Do not claim to be FIRST or an official rules authority.`
+- Do not claim to be FIRST or an official rules authority.
+
+Output:
+- Return only one valid JSON object with exactly these fields: {"inScope": boolean, "answer": string, "usedSourceIds": number[]}.
+- Put the student-facing Markdown response in answer. Do not wrap the JSON in a Markdown code fence.`
 }
 
 function isStructuredTutorAnswer(
