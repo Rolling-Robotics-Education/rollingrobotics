@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'standalone',
+  outputFileTracingRoot: __dirname,
   trailingSlash: true,
+  outputFileTracingIncludes: {
+    '/*': ['./data/**/*'],
+  },
   images: {
     unoptimized: true
   },

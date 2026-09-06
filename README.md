@@ -12,10 +12,12 @@ A modern, responsive website built with Next.js, TypeScript, and Tailwind CSS fo
 - **Dark mode support** with smooth transitions
 - **Smooth animations** powered by Framer Motion
 - **Accessible design** following WCAG AA guidelines
+- **Sushi FTC Tutor** with mobile-friendly chat, official FIRST citations, and
+  strict FTC-only scope
 
 ### Performance & SEO
 - **Lighthouse score ≥90** for optimal performance
-- **Static site generation** for fast loading
+- **Hybrid rendering** for fast pages plus a secure server-side tutor API
 - **SEO optimized** with next-seo integration
 - **Open Graph** meta tags for social sharing
 - **Automatic sitemap** generation
@@ -36,6 +38,8 @@ A modern, responsive website built with Next.js, TypeScript, and Tailwind CSS fo
 - **Tailwind CSS** for consistent styling
 - **Modular design system** with reusable components
 - **Modern React patterns** with hooks and context
+- **Azure AI Foundry grounding** using live official FIRST pages and the current
+  FTC competition manual
 
 ## 🛠️ Tech Stack
 
@@ -55,7 +59,9 @@ src/
 ├── app/                  # App Router pages
 │   ├── about/           # About page
 │   ├── contact/         # Contact page
+│   ├── api/ftc-tutor/   # Grounded Azure AI Foundry endpoint
 │   ├── programs/        # Programs page
+│   ├── sushi-ftc-tutor/ # FTC-only student tutor
 │   ├── support/         # Support page
 │   ├── team/            # Team page
 │   ├── globals.css      # Global styles
@@ -81,7 +87,7 @@ src/
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js 18.0 or later
+- Node.js 22.0 or later
 - npm or yarn
 
 ### Installation
@@ -111,29 +117,39 @@ src/
 - `npm run build` - Build for production
 - `npm run start` - Start production server
 - `npm run lint` - Run ESLint
-- `npm run export` - Export static site
+- `npm run manual:update` - Check for and convert the latest official FTC manual
+
+### Sushi FTC Tutor configuration
+
+Copy `.env.example` to `.env.local` and configure the Azure AI Foundry model:
+
+```bash
+AZURE_FOUNDRY_ENDPOINT=https://YOUR-RESOURCE.openai.azure.com
+AZURE_FOUNDRY_API_KEY=YOUR-KEY
+AZURE_FOUNDRY_MODEL=YOUR-DEPLOYMENT-NAME
+```
+
+`AZURE_FOUNDRY_ENDPOINT` must expose the OpenAI-compatible `/openai/v1`
+Responses API. The equivalent `AZURE_OPENAI_ENDPOINT`,
+`AZURE_OPENAI_API_KEY`, and `AZURE_OPENAI_DEPLOYMENT` names are also accepted.
+Keep API keys in Azure App Service settings; never commit them.
+
+The bundled `data/ftc-game-manual.md` is generated from the official
+competition-manual PDF. Each Node server process checks the official manual
+endpoint immediately on startup and every ten minutes, converts a newer PDF to
+Markdown, and replaces the local copy atomically. Azure App Service stores the
+runtime copy under its persistent home directory. Set `FTC_MANUAL_PATH` to use
+another writable location, or set `FTC_MANUAL_AUTO_UPDATE=false` to disable the
+background check.
 
 ## 🌐 Deployment
 
-### Static Export (Recommended)
+### Azure App Service
 
-The site is configured for static export, making it deployable to any static hosting service:
-
-```bash
-npm run build
-```
-
-This generates a static site in the `out/` directory.
-
-### Azure Static Web Apps
-
-For Azure deployment:
-
-1. **Connect your GitHub repository** to Azure Static Web Apps
-2. **Configure build settings**:
-   - Build command: `npm run build`
-   - Output directory: `out`
-3. **Set up www redirect** in Azure configuration
+The tutor requires a Node.js server and is deployed with Next.js standalone
+output. Configure the three Azure Foundry app settings above, then use the
+included Azure Web App workflows. The deployment package includes the generated
+manual data alongside the standalone server.
 
 
 ## 🎨 Design System

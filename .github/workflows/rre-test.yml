@@ -43,7 +43,8 @@ jobs:
           # Copy static files to the standalone directory
           cp -r .next/static ./deploy/.next/static
           cp -r public ./deploy/public
-                  
+          cp -r data ./deploy/data
+
           # Verify the structure
           echo "Standalone deployment structure:"
           ls -la ./deploy
@@ -99,7 +100,7 @@ jobs:
       - name: Warm critical routes
         run: |
           BASE_URL="https://${{ env.AZURE_WEBAPP_NAME }}.azurewebsites.net"
-          for path in /; do
+          for path in / /sushi-ftc-tutor/; do
             echo "Warming $BASE_URL$path"
             curl -fsS -m 180 -o /dev/null "$BASE_URL$path" || true
           done

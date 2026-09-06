@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
+import { usePathname } from 'next/navigation'
 import { useTheme } from 'next-themes'
 import { Bars3Icon, XMarkIcon, SunIcon, MoonIcon } from '@heroicons/react/24/outline'
 import { motion, AnimatePresence } from 'framer-motion'
@@ -12,6 +13,7 @@ const navigation = [
   { name: 'About', href: '/about' },
   { name: 'Programs', href: '/programs' },
   { name: 'Team', href: '/team' },
+  { name: 'Sushi FTC Tutor', href: '/sushi-ftc-tutor', featured: true },
   { name: 'Support', href: '/support' },
   { name: 'Contact', href: '/contact' },
 ]
@@ -20,6 +22,7 @@ export function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const { theme, setTheme } = useTheme()
+  const pathname = usePathname()
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
@@ -71,12 +74,19 @@ export function Navigation() {
           </button>
         </div>
         
-        <div className="hidden lg:flex lg:gap-x-12">
+        <div className="hidden lg:flex lg:items-center lg:gap-x-5 xl:gap-x-8">
           {navigation.map((item) => (
             <Link
               key={item.name}
               href={item.href}
-              className="text-sm font-semibold leading-6 text-gray-900 dark:text-white hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-200"
+              aria-current={pathname === item.href ? 'page' : undefined}
+              className={`text-sm font-semibold leading-6 transition-colors duration-200 ${
+                item.featured
+                  ? 'rounded-full bg-primary-100 px-3 py-1.5 text-primary-800 hover:bg-primary-200 dark:bg-primary-900/50 dark:text-primary-200 dark:hover:bg-primary-900'
+                  : pathname === item.href
+                    ? 'text-primary-700 dark:text-primary-300'
+                    : 'text-gray-900 hover:text-primary-600 dark:text-white dark:hover:text-primary-400'
+              }`}
             >
               {item.name}
             </Link>
@@ -144,7 +154,12 @@ export function Navigation() {
                       <Link
                         key={item.name}
                         href={item.href}
-                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 dark:text-white hover:bg-gray-50 dark:hover:bg-gray-800"
+                        aria-current={pathname === item.href ? 'page' : undefined}
+                        className={`-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 ${
+                          item.featured
+                            ? 'bg-primary-50 text-primary-800 hover:bg-primary-100 dark:bg-primary-950/50 dark:text-primary-200 dark:hover:bg-primary-900/50'
+                            : 'text-gray-900 hover:bg-gray-50 dark:text-white dark:hover:bg-gray-800'
+                        }`}
                         onClick={() => setMobileMenuOpen(false)}
                       >
                         {item.name}
