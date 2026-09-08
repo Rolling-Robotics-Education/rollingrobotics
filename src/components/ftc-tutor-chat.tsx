@@ -45,10 +45,22 @@ export function FtcTutorChat({
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState('')
   const [manual, setManual] = useState(initialManual)
-  const endOfConversation = useRef<HTMLDivElement>(null)
+  const conversation = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    endOfConversation.current?.scrollIntoView({ behavior: 'smooth' })
+    if (messages.length === 0 && !loading) {
+      return
+    }
+
+    const frame = requestAnimationFrame(() => {
+      const scrollContainer = conversation.current
+      scrollContainer?.scrollTo({
+        top: scrollContainer.scrollHeight,
+        behavior: 'smooth',
+      })
+    })
+
+    return () => cancelAnimationFrame(frame)
   }, [messages, loading])
 
   const submitQuestion = async (submittedQuestion: string) => {
@@ -152,6 +164,7 @@ export function FtcTutorChat({
 
       <div className="flex h-[70svh] min-h-[500px] max-h-[760px] flex-col">
         <div
+          ref={conversation}
           className="flex-1 space-y-5 overflow-y-auto px-4 py-6 sm:px-6"
           aria-live="polite"
           aria-busy={loading}
@@ -278,7 +291,6 @@ export function FtcTutorChat({
               </span>
             </div>
           )}
-          <div ref={endOfConversation} />
         </div>
 
         <div className="border-t border-slate-200 bg-white p-4 dark:border-slate-700 dark:bg-slate-900 sm:p-5">
