@@ -3,12 +3,12 @@ title: "FIRST Tech Challenge 2026-2027 Competition Manual"
 season: "2026-2027"
 seasonEndYear: 2027
 source: "https://ftc-resources.firstinspires.org/ftc/archive/2027/game/manual"
-downloadedAt: "2026-09-12T18:46:41.343Z"
-etag: "W/\"7eb55985bd601af0ec9a70b8fe197bd0\""
-lastModified: "Sat, 12 Sep 2026 16:02:42 GMT"
-contentLength: 6948629
-pdfSha256: "2ee0ea8327da47deb871e33307898c13ee5310d5af260007dc11bb4471181f5a"
-pages: 173
+downloadedAt: "2026-10-18T21:26:41.528Z"
+etag: "W/\"8aec8fc9b8ce8d59149f5206ed79848a\""
+lastModified: "Thu, 15 Oct 2026 22:18:13 GMT"
+contentLength: 6958285
+pdfSha256: "0fe3546fa58bb3f0fca696ad18976609da48a31c1e642d5f0c2223202bc50340"
+pages: 175
 ---
 
 # FIRST Tech Challenge 2026-2027 Competition Manual
@@ -17,14 +17,14 @@ pages: 173
 
 ## Page 1
 
-V1
+Version: TU05
 2026-2027 FIRST® Tech Challenge
 Competition Manual
 BIOBUZZTM Presented by RTX
 
 ## Page 2
 
-2 of 173
+2 of 175
 Contents
 1 Introduction .............................................................................................................................................................................5
 1.1 About FIRST® ..................................................................................................................................................................5
@@ -76,46 +76,46 @@ Contents
 
 ## Page 3
 
-3 of 173
+3 of 175
 10.2 DRIVE TEAM ................................................................................................................................................................. 81
 10.3 Setup ............................................................................................................................................................................ 82
 10.4 MATCH Periods ........................................................................................................................................................... 85
 10.5 Scoring ......................................................................................................................................................................... 86
 10.6 Violations ..................................................................................................................................................................... 92
-10.7 Head REFEREE ............................................................................................................................................................. 96
+10.7 Head REFEREE ............................................................................................................................................................. 97
 10.8 Other Logistics ............................................................................................................................................................. 97
 11 Game Rules (G) .................................................................................................................................................................... 99
 11.1 Personal Safety ............................................................................................................................................................ 99
 11.2 Conduct ........................................................................................................................................................................ 99
 11.3 Pre-MATCH ................................................................................................................................................................ 102
 11.4 In-MATCH ................................................................................................................................................................... 106
-12 ROBOT Construction Rules (R).......................................................................................................................................... 118
-12.1 General ROBOT Design .............................................................................................................................................. 120
-12.2 Fair Play & Damage Prevention................................................................................................................................. 124
-12.3 Fabrication ................................................................................................................................................................. 126
-12.4 ROBOT SIGN Rules .................................................................................................................................................... 128
-12.5 Motors & Actuators ................................................................................................................................................... 131
-12.6 Power Distribution ..................................................................................................................................................... 134
-12.7 Control, Command & Signals System ....................................................................................................................... 139
-12.8 Pneumatic Systems & Airflow Devices .................................................................................................................... 143
-12.9 OPERATOR CONSOLE ............................................................................................................................................... 143
-13 Tournament (T) .................................................................................................................................................................. 145
-13.1 Overview ..................................................................................................................................................................... 145
-13.2 MATCH Replays ......................................................................................................................................................... 145
-13.3 Clarifications on MATCH Play Results (“Question Box”) ........................................................................................ 146
-13.4 General Tournament Rules ....................................................................................................................................... 148
-13.5 Practice MATCHES .................................................................................................................................................... 151
-13.6 Qualification MATCHES ............................................................................................................................................ 151
-13.7 Playoff MATCHES ...................................................................................................................................................... 154
-13.8 Dual Division Events .................................................................................................................................................. 161
-14 League Play Tournaments (L) ........................................................................................................................................... 165
-15 FIRST Championship (C) ................................................................................................................................................... 167
-15.1 Awards Modifications ............................................................................................................................................... 167
-15.2 Game Modification .................................................................................................................................................... 167
-15.3 3-ROBOT ALLIANCES ................................................................................................................................................ 168
-15.4 FIRST Championship Pit Crews ................................................................................................................................ 168
-15.5 FIRST Championship Playoffs .................................................................................................................................. 168
-16 Glossary .............................................................................................................................................................................. 169
+12 ROBOT Construction Rules (R).......................................................................................................................................... 119
+12.1 General ROBOT Design .............................................................................................................................................. 121
+12.2 Fair Play & Damage Prevention................................................................................................................................. 125
+12.3 Fabrication ................................................................................................................................................................. 127
+12.4 ROBOT SIGN Rules .................................................................................................................................................... 129
+12.5 Motors & Actuators ................................................................................................................................................... 132
+12.6 Power Distribution ..................................................................................................................................................... 135
+12.7 Control, Command & Signals System ....................................................................................................................... 140
+12.8 Pneumatic Systems & Airflow Devices .................................................................................................................... 144
+12.9 OPERATOR CONSOLE ............................................................................................................................................... 144
+13 Tournament (T) .................................................................................................................................................................. 147
+13.1 Overview ..................................................................................................................................................................... 147
+13.2 MATCH Replays ......................................................................................................................................................... 147
+13.3 Clarifications on MATCH Play Results (“Question Box”) ........................................................................................ 148
+13.4 General Tournament Rules ....................................................................................................................................... 150
+13.5 Practice MATCHES .................................................................................................................................................... 153
+13.6 Qualification MATCHES ............................................................................................................................................ 153
+13.7 Playoff MATCHES ...................................................................................................................................................... 156
+13.8 Dual Division Events .................................................................................................................................................. 163
+14 League Play Tournaments (L) ........................................................................................................................................... 167
+15 FIRST Championship (C) ................................................................................................................................................... 169
+15.1 Awards Modifications ............................................................................................................................................... 169
+15.2 Game Modification .................................................................................................................................................... 169
+15.3 3-ROBOT ALLIANCES ................................................................................................................................................ 170
+15.4 FIRST Championship Pit Crews ................................................................................................................................ 170
+15.5 FIRST Championship Playoffs .................................................................................................................................. 170
+16 Glossary .............................................................................................................................................................................. 171
 
 ## Page 4
 
@@ -123,7 +123,7 @@ Contents
 
 ## Page 5
 
-Section 1 Introduction V1 5 of 173
+Section 1 Introduction Version: TU05 5 of 175
 1 Introduction
 1.1 About
 FIRST®
@@ -171,7 +171,7 @@ only caring adults to enable self-exploration.
 
 ## Page 6
 
-Section 1 Introduction V1 6 of 173
+Section 1 Introduction Version: TU05 6 of 175
 − Complexity. Robots can be fully built from a basic Starter Kit, fully fabricated from custom designs,
 or built in a way that mixes both approaches. There are opportunities for advanced manufacturing,
 but non-classroom tools are optional, not required.
@@ -206,7 +206,7 @@ ethos of FIRST. It is part of what makes FIRST different and wonderful.”
 
 ## Page 7
 
-Section 1 Introduction V1 7 of 173
+Section 1 Introduction Version: TU05 7 of 175
 Gracious Professionalism is a gift from Woodie, and all of us have now become its stewards. Woodie often
 said that it is not critical that we define Gracious Professionalism, but Woodie would continue to say it is very
 important to talk about Gracious Professionalism.
@@ -242,7 +242,7 @@ suggest ways in which they can embody aspects of this quality themselves.
 
 ## Page 8
 
-Section 1 Introduction V1 8 of 173
+Section 1 Introduction Version: TU05 8 of 175
 Figure 1-2: Words which might apply to individuals embodying Gracious Professionalism.
 What words would you put in your word cloud?
 1.3.2
@@ -273,7 +273,7 @@ human.
 
 ## Page 9
 
-Section 1 Introduction V1 9 of 173
+Section 1 Introduction Version: TU05 9 of 175
 Build a Better World
 Our mission is to “give young people the skills, confidence, and resilience to build a better world.” What kind of
 world do we want that to be? What kind of culture do we want to be a part of?
@@ -295,7 +295,7 @@ things which make us uniquely human.
 
 ## Page 10
 
-Section 1 Introduction V1 10 of 173
+Section 1 Introduction Version: TU05 10 of 175
 1.4 The Spirit of the Competition
 1.4.1 A Note from the
 FIRST Staff
@@ -338,7 +338,7 @@ game design, our field designs, and our volunteers. Many of our efforts to enabl
 
 ## Page 11
 
-Section 1 Introduction V1 11 of 173
+Section 1 Introduction Version: TU05 11 of 175
 play only make it more difficult to enable introductory play experiences. We feel we need to change
 something to be successful at enabling both.
 Changes for 2026-2027 (and beyond).
@@ -369,7 +369,7 @@ FIRST Tech Challenge Staff
 
 ## Page 12
 
-Section 1 Introduction V1 12 of 173
+Section 1 Introduction Version: TU05 12 of 175
 1.4.2 Framework of Behaviors
 The culture of FIRST Tech Challenge is shaped by the habits and behaviors of our global community. To ensure
 our sport remains a positive space for our teams, we rely on all our participants, mentors, educators,
@@ -414,7 +414,7 @@ students where they’re at. Success should always be based on individual studen
 
 ## Page 13
 
-Section 1 Introduction V1 13 of 173
+Section 1 Introduction Version: TU05 13 of 175
 through mentor training resources and the sharing of best practices, so all teams may continuously improve as
 they find what works best for their students.
 1.4.4 The Sprit of
@@ -454,7 +454,7 @@ materials can be found on our Volunteer Resources Page.
 
 ## Page 14
 
-Section 1 Introduction V1 14 of 173
+Section 1 Introduction Version: TU05 14 of 175
 1.5 Competition Integrity Contract (CIC)
 As an actionable part of the Framework of Behaviors described in Section 1.4.2 Framework of Behaviors,
 the Competition Integrity Contract (CIC) defines ways that every team in FIRST Tech Challenge should behave,
@@ -491,7 +491,7 @@ perceived infraction, especially in a disrespectful or confrontational manner.
 
 ## Page 15
 
-Section 1 Introduction V1 15 of 173
+Section 1 Introduction Version: TU05 15 of 175
 1.5.2 Behavior Guidelines
 Our Team Certifies:
 We Focus on Journey, Before Destination.
@@ -535,7 +535,7 @@ is: staying hydrated, eating well, staying active, getting enough sleep, and tak
 
 ## Page 16
 
-Section 1 Introduction V1 16 of 173
+Section 1 Introduction Version: TU05 16 of 175
 We also understand that in any creative process a measured (and sometimes relaxed) schedule which
 leaves time for recuperation will often result in a better outcome than “grinding” for long hours. We
 know our team is most successful when every member is at their best, both at competitions and
@@ -549,9 +549,9 @@ meet, celebrate cool stuff, and more than anything: we'll be excellent to each o
 1.5.3 Infractions, Mitigations, & Escalation
 Violations of the CIC may require escalation and/or mitigation depending on the circumstances of the
 infraction. These infractions may occur at an event and/or outside of events.
-Escalations for violations related to specific competition regulations are outlined in the Escalation Guidelines
-(coming soon). Some situations may require escalation to competition volunteers such as a Lead Robot
-Inspector (LRI), Head Referee, or FIRST Technical Advisor (FTA) for mitigation.
+Escalations for violations related to specific competition regulations are outlined in the Escalation Guidelines.
+Some situations may require escalation to competition volunteers such as a Lead Robot Inspector (LRI), Head
+Referee, or FIRST Technical Advisor (FTA) for mitigation.
 More serious violations, especially violations of the Sporting Ethics Code, will be escalated to the Event
 Director, and/or to FIRST Headquarters. At the discretion of FIRST Headquarters, these violations may result in
 the team being sanctioned, and/or disqualified from current and/or future events. Following an investigation,
@@ -576,7 +576,7 @@ details:
 
 ## Page 17
 
-Section 1 Introduction V1 17 of 173
+Section 1 Introduction Version: TU05 17 of 175
 − rules (related to safety, conduct, gameplay, inspection, event, etc.),
 − ROBOT construction rules, and
 − a description of how teams advance throughout the season.
@@ -612,7 +612,7 @@ their contents as they’re intended to provide insight into the reasoning behin
 
 ## Page 18
 
-Section 1 Introduction V1 18 of 173
+Section 1 Introduction Version: TU05 18 of 175
 rule, helpful information on understanding or interpreting a rule, and/or possible
 “best practices” for use when implementing systems affected by a rule.
 While orange boxes are part of the manual, they do not carry the weight of the
@@ -651,7 +651,7 @@ the authoritative version.
 
 ## Page 19
 
-Section 1 Introduction V1 19 of 173
+Section 1 Introduction Version: TU05 19 of 175
 1.7.3 Team Updates
 Team Updates are used to notify the FIRST Tech Challenge community of revisions to the official season
 documentation (e.g., the manual, drawings) or important season news. Team Update posts are scheduled as
@@ -693,14 +693,14 @@ with R?? and R??
 
 ## Page 20
 
-Section 1 Introduction V1 20 of 173
+Section 1 Introduction Version: TU05 20 of 175
 − We’re not sure how to interpret Rule G?? applies if blue ROBOT A does X and red ROBOT B does Y,
 can you please clarify?
 − If a ROBOT does this specific action, is it doing what this defined term is describing?
 
 ## Page 21
 
-Section 2 FIRST Season Overview V1 21 of 173
+Section 2 FIRST Season Overview Version: TU05 21 of 175
 2
 FIRST Season Overview
 Engineer a Thriving Planet with
@@ -717,7 +717,7 @@ LEARN MORE: https://www.firstinspires.org/first-canopy
 
 Section 3 Competition Eligibility and
 Inspection (I)
-V1 22 of 173
+Version: TU05 22 of 175
 3 Competition Eligibility and Inspection (I)
 3.1 Team Eligibility Rules
 I101 *Teams must be registered with
@@ -762,7 +762,7 @@ ready to compete before attending an event.
 
 Section 3 Competition Eligibility and
 Inspection (I)
-V1 23 of 173
+Version: TU05 23 of 175
 I103 *A responsible adult must be present for the whole event. At least 1, preferably 2, adult(s) responsible
 for the STUDENT team members must be present at all times during the event. Responsible adult(s) are
 recommended to be listed on the team roster.
@@ -803,7 +803,7 @@ other to ensure a safe inspection experience.
 
 Section 3 Competition Eligibility and
 Inspection (I)
-V1 24 of 173
+Version: TU05 24 of 175
 Inspection is not comprehensive. Teams are expected to adhere to the spirit of
 the rules in Section 12 ROBOT Construction Rules (R), even if INSPECTORS
 do not check every part of the ROBOT. Teams that STRATEGICALLY circumvent
@@ -828,7 +828,7 @@ Rules (R).
 
 Section 3 Competition Eligibility and
 Inspection (I)
-V1 25 of 173
+Version: TU05 25 of 175
 3.3.2 Re-Inspection
 Teams may make changes to their ROBOT during an event after they complete their initial inspection. With
 some exceptions, all changes to the ROBOT must be re-inspected before the team can participate in further
@@ -868,7 +868,7 @@ rules.
 
 ## Page 27
 
-Section 4 Advancement V1 27 of 173
+Section 4 Advancement Version: TU05 27 of 175
 4 Advancement
 Teams are only eligible to advance from events within their HOME REGION. Teams may be invited to compete
 at tournaments outside of their HOME REGION; however, they are not advancement eligible from these out-of-
@@ -918,7 +918,7 @@ Pilot
 
 ## Page 28
 
-Section 4 Advancement V1 28 of 173
+Section 4 Advancement Version: TU05 28 of 175
 Teams may advance from their region’s Qualifying Tournaments or League Tournament to either a Super
 Qualifying Tournament (SQT) or directly to a Regional Championship (RCMP). Super Qualifying Tournaments
 (SQT) are an optional advancement level often used in large regions which need more levels of competition. A
@@ -963,7 +963,7 @@ Team Judged Awards
 
 ## Page 29
 
-Section 4 Advancement V1 29 of 173
+Section 4 Advancement Version: TU05 29 of 175
 If there is a tie in the point totals between teams, the higher ranked team will be determined using the following
 additional sorting criteria in Table 4-2.
 Table 4-2 Advancement Sorting Criteria Including Tiebreakers
@@ -1001,7 +1001,7 @@ number of teams at the event.
 
 ## Page 30
 
-Section 4 Advancement V1 30 of 173
+Section 4 Advancement Version: TU05 30 of 175
 Table 4-3 Sample Qualification Round Point Assignments
 Rank 1 2 3 4 … 12 13 14 … 25 26 27 28
 Points 16 15 14 14 … 10 10 10 … 6 5 5 4
@@ -1036,7 +1036,7 @@ event are not assigned to any team. See A211 for the list of points-eligible awa
 
 ## Page 31
 
-Section 4 Advancement V1 31 of 173
+Section 4 Advancement Version: TU05 31 of 175
 4.2 Advancement Distribution by Region
 Advancement within a region is determined by the Program Delivery Partner and minimum advancement
 numbers should be made publicly accessible to participating teams as early as possible before the event, and
@@ -1062,7 +1062,7 @@ team invitation.
 
 ## Page 33
 
-Section 5 Event Rules (E) V1 33 of 173
+Section 5 Event Rules (E) Version: TU05 33 of 175
 5 Event Rules (E)
 This section includes general rules which apply from the beginning of the public schedule when teams arrive
 through the end of the event with departure from the venue.
@@ -1102,7 +1102,7 @@ Safety Manual.
 
 ## Page 34
 
-Section 5 Event Rules (E) V1 34 of 173
+Section 5 Event Rules (E) Version: TU05 34 of 175
 E102 *Be Respectful. All participants should follow the framework of behaviors listed in Section 1.4
 The Spirit of the Competition while attending a FIRST Tech Challenge event. Uncivil
 behavior toward any participants is not tolerated.
@@ -1147,7 +1147,7 @@ discontinue the activity.
 
 ## Page 35
 
-Section 5 Event Rules (E) V1 35 of 173
+Section 5 Event Rules (E) Version: TU05 35 of 175
 Demonstrating robot functionality to guests or JUDGES is not considered
 practice.
 E107 *Work in designated areas only. At the event venue, teams may only produce FABRICATED ITEMS as
@@ -1188,7 +1188,7 @@ the end of the event, safely remove all signs and anything used to hang the sign
 
 ## Page 36
 
-Section 5 Event Rules (E) V1 36 of 173
+Section 5 Event Rules (E) Version: TU05 36 of 175
 E113 *Limit flag and flagpole size if used in the ARENA. Flags and flagpoles may not be of unreasonable
 size and weight if they are going to be used around the FIELD.
 As a guideline, reasonable flags are less than 3 ft. by 5 ft. (~91 cm by 152 cm) in
@@ -1230,7 +1230,7 @@ actively using them.
 
 ## Page 37
 
-Section 5 Event Rules (E) V1 37 of 173
+Section 5 Event Rules (E) Version: TU05 37 of 175
 Teams may not hang banners or ribbons or otherwise designate seating. (Event
 staff will remove and discard any banners, roping, etc., used to designate
 seating.) Please take turns sitting in the bleachers/stands if seating is limited. If
@@ -1264,7 +1264,7 @@ customerservice@firstinspires.org to report a suspected issue after the event.
 
 ## Page 38
 
-Section 5 Event Rules (E) V1 38 of 173
+Section 5 Event Rules (E) Version: TU05 38 of 175
 5.4 Load-In
 Some large events (often multi-day events) may set specific time frames, published on the event public
 schedule, in which teams are invited to load their ROBOT and equipment into their pit areas before pits
@@ -1306,7 +1306,7 @@ are directed safely and is limited in duration.
 
 ## Page 39
 
-Section 5 Event Rules (E) V1 39 of 173
+Section 5 Event Rules (E) Version: TU05 39 of 175
 Examples of tools that violate this rule include, but are not limited to: welders,
 bench and angle grinders, and gas torches.
 E505 *Only small benchtop machinery is permitted in team pits. Small machinery is allowed but floor
@@ -1345,7 +1345,7 @@ regular charging cycle, and
 
 ## Page 40
 
-Section 5 Event Rules (E) V1 40 of 173
+Section 5 Event Rules (E) Version: TU05 40 of 175
 E511 *Charge batteries in a safe and fair manner. When charging batteries teams must:
 A. Charge batteries at a safe rate, following all manufacturer recommendations,
 B. Never charge batteries on a battery charger that exceeds a 3-amp average channel current,
@@ -1366,7 +1366,7 @@ F. not use powered propulsion.
 
 ## Page 41
 
-Section 5 Event Rules (E) V1 41 of 173
+Section 5 Event Rules (E) Version: TU05 41 of 175
 5.7 Ceremonies
 At most events, there are opening and closing ceremonies to show honor and respect for represented
 countries, sponsors, teams, mentors, volunteers, and award winners. Ceremonies provide everyone with the
@@ -1399,7 +1399,7 @@ and non-disruptive.
 
 ## Page 43
 
-Section 6 Awards (A) V1 43 of 173
+Section 6 Awards (A) Version: TU05 43 of 175
 6 Awards (A)
 This section includes a high-level description of each of the components of judging and ROBOT game specific
 awards in FIRST Tech Challenge.
@@ -1424,10 +1424,9 @@ gameplay, but some or all judging is done remotely for all teams before in-perso
 primarily describe the traditional in-person judging process. The remote judging process follows the same
 overall judging standards and requirements, but some or all interviews are conducted online, and in-person
 meetings may not occur.
-Teams may also read the Judge and Judge Advisor Manuals (coming soon) to gain more insight into the
-complete judging process. Teams are also encouraged to review the Outreach Terms and Definitions
-Document to ensure all teams can clearly communicate with JUDGES and our community the great things they
-do to grow FIRST.
+Teams may also read the Judge and Judge Advisor Manuals to gain more insight into the complete judging
+process. Teams are also encouraged to review the Outreach Terms and Definitions Document to ensure all
+teams can clearly communicate with JUDGES and our community the great things they do to grow FIRST.
 6.1 Team Judged Awards Overview and Schedule
 FIRST Tech Challenge team judged awards fall into three categories, which have one or more awards each:
 Machine, Creativity, and Innovation (MCI), Team Attributes (TA), and Documentation. In addition, the Judges’
@@ -1439,7 +1438,7 @@ calculations as described in Section 4 Advancement.
 
 ## Page 44
 
-Section 6 Awards (A) V1 44 of 173
+Section 6 Awards (A) Version: TU05 44 of 175
 Figure 6-1: Award hierarchy
 − The Inspire Award recognizes teams who excel in MCI, TA, and Documentation accomplishments.
 This team is an all-around inspiration for others.
@@ -1463,7 +1462,7 @@ awards even if they are attending the event without a ROBOT.
 
 ## Page 45
 
-Section 6 Awards (A) V1 45 of 173
+Section 6 Awards (A) Version: TU05 45 of 175
 6.1.1 Sources of Information Considered for Awards
 JUDGES will use the Initial Interview, any follow-up interview, and the PORTFOLIO (where applicable) as
 sources of information for each award consideration.
@@ -1490,7 +1489,7 @@ caring adults and can recognize their achievements and encourage them to continu
 
 ## Page 46
 
-Section 6 Awards (A) V1 46 of 173
+Section 6 Awards (A) Version: TU05 46 of 175
 6.1.2 Initial Interview
 All teams are encouraged to prepare for an Initial Interview session where the team may present a prepared
 oral presentation to a small panel of JUDGES, followed by an open Q&A session.
@@ -1507,7 +1506,7 @@ like to start with.
 2. Teams may present to the JUDGES uninterrupted for up to about 5 minutes, per A205.
 3. JUDGES will ask open ended questions and interact with the team for the remaining interview time.
 4. The interview is concluded by the JUDGES.
-5. JUDGES privately discuss the details of the interview and complete the feedback form (coming soon).
+5. JUDGES privately discuss the details of the interview and complete the feedback form.
 6. JUDGES identify the next team to be interviewed and repeat the process.
 The Event Director, in coordination with the JUDGE Advisor and the regional planning committee, is responsible
 for determining the format for the Initial Interview and communicating this information to the teams prior to
@@ -1522,8 +1521,8 @@ and could create communication challenges.
 For interviews that take place in the pits, JUDGES will work with MATCH queuers
 and technical volunteers to ensure teams are able to attend MATCHES and work
 on their ROBOTS.
-Teams are encouraged to review the Judge Interview Question Bank (coming soon) prior to their judging
-interviews to understand the type of questions that may be asked by the JUDGES. At each event, the JUDGENext
+Teams are encouraged to review the Judge Interview Question Bank prior to their judging interviews to
+understand the type of questions that may be asked by the JUDGES. At each event, the JUDGE Advisor willNext
 Team
 JUDGES
 Discuss
@@ -1540,11 +1539,11 @@ Introduction
 
 ## Page 47
 
-Section 6 Awards (A) V1 47 of 173
-Advisor will select two questions from the question bank that all teams will be asked at the start of the Initial
-Interview’s question and answer session. One question will be focused on the MCI award category, and one
-question will be focused on the TA award category. After the first two questions are asked and answered,
-JUDGES may ask additional questions to help evaluate the team’s performance against the award criteria.
+Section 6 Awards (A) Version: TU05 47 of 175
+select two questions from the question bank that all teams will be asked at the start of the Initial Interview’s
+question and answer session. One question will be focused on the MCI award category, and one question will
+be focused on the TA award category. After the first two questions are asked and answered, JUDGES may ask
+additional questions to help evaluate the team’s performance against the award criteria.
 Additional questions asked during interviews may come from the question bank
 but teams should be prepared to answer questions that are not listed within the
 document.
@@ -1569,7 +1568,7 @@ PORTFOLIO or during an interview.
 
 ## Page 48
 
-Section 6 Awards (A) V1 48 of 173
+Section 6 Awards (A) Version: TU05 48 of 175
 6.2 Team Judged Award Rules
 A201 *Team PORTFOLIOS have limits. Teams have the opportunity to submit a team PORTFOLIO to
 be used as part of the judging process. Other printed or digital content outside this document will
@@ -1609,7 +1608,7 @@ plan) to demonstrate growth, but the emphasis must be on the current season.
 
 ## Page 49
 
-Section 6 Awards (A) V1 49 of 173
+Section 6 Awards (A) Version: TU05 49 of 175
 A202 *PORTFOLIOS must be submitted on time and as requested. Teams must submit their PORTFOLIO as
 instructed by the Event Director and by the stated deadline if they wish to have it considered during the
 judging process. If no other instructions are provided, teams should submit 1 printed copy of their
@@ -1650,7 +1649,7 @@ Interview of at least 10 minutes.
 
 ## Page 50
 
-Section 6 Awards (A) V1 50 of 173
+Section 6 Awards (A) Version: TU05 50 of 175
 A206 *The Initial Interview timer starts when the team starts. The timer starts after the JUDGES have
 introduced themselves and either, the team begins their presentation, or the Q&A portion of the
 interview begins. Teams who take an extended amount of time to begin will be warned by the JUDGES
@@ -1683,7 +1682,7 @@ E116, no recording of video or audio, or photos may be taken during the Initial 
 
 ## Page 51
 
-Section 6 Awards (A) V1 51 of 173
+Section 6 Awards (A) Version: TU05 51 of 175
 A211 *The number of awards given scales with event size. The total number of awards given is based on the
 number of teams checked in at the event. Not all awards are given at every competition. Only the
 awards specified in Table 6-1, based on the event size are, points-eligible for advancement.
@@ -1753,7 +1752,7 @@ of this rule.
 
 ## Page 52
 
-Section 6 Awards (A) V1 52 of 173
+Section 6 Awards (A) Version: TU05 52 of 175
 A212 *Judging feedback is provided to all teams. All teams will receive feedback from their Initial
 Interview session. The JUDGES complete a form immediately following the Initial Interview
 based on their initial impression of the team. This feedback form is not used during deliberations
@@ -1783,7 +1782,7 @@ Awards.
 
 ## Page 53
 
-Section 6 Awards (A) V1 53 of 173
+Section 6 Awards (A) Version: TU05 53 of 175
 6.3 Team Judged Award Descriptions
 6.3.1 Inspire Award
 The Inspire Award recognizes a team that is a strong role model for all FIRST programs. This team is a top
@@ -1808,7 +1807,7 @@ Required 4 Team is able to share their experiences and knowledge to the JUDGES.
 
 ## Page 54
 
-Section 6 Awards (A) V1 54 of 173
+Section 6 Awards (A) Version: TU05 54 of 175
 6.3.2 Think Award
 The Think Award recognizes a team for their excellent PORTFOLIO. The PORTFOLIO is a clear and organized
 record of the team's engineering journey and growth this season. JUDGES look at this document to find the
@@ -1847,7 +1846,7 @@ collaborative activities.
 
 ## Page 55
 
-Section 6 Awards (A) V1 55 of 173
+Section 6 Awards (A) Version: TU05 55 of 175
 6.3.4 Reach Award
 The Reach Award recognizes a team that has introduced and recruited new people into FIRST. Through their
 outreach efforts, they have inspired and motivated others to join the FIRST community and actively participate
@@ -1893,7 +1892,7 @@ arise.
 
 ## Page 56
 
-Section 6 Awards (A) V1 56 of 173
+Section 6 Awards (A) Version: TU05 56 of 175
 6.3.6 Innovate Award sponsored by RTX
 The Innovate Award recognizes a team that designs creative solutions to game challenges. JUDGES give this
 award to a team with a creative and original design for one or more parts of their ROBOT. JUDGES look at the
@@ -1932,7 +1931,7 @@ develop their control solutions (sensors, hardware, algorithms, or a combination
 
 ## Page 57
 
-Section 6 Awards (A) V1 57 of 173
+Section 6 Awards (A) Version: TU05 57 of 175
 6.3.8 Design Award
 The Design Award recognizes a team that understands the principles of industrial design. This means
 balancing form, function, and appearance while meeting the needs of this season's game. The team's design
@@ -1966,7 +1965,7 @@ awarded to the division playoff finalists and the event finals playoff finalists
 
 ## Page 58
 
-Section 6 Awards (A) V1 58 of 173
+Section 6 Awards (A) Version: TU05 58 of 175
 6.5 Individual Awards
 6.5.1
 FIRST Leadership Award
@@ -2004,7 +2003,7 @@ creating their video.
 
 ## Page 59
 
-Section 6 Awards (A) V1 59 of 173
+Section 6 Awards (A) Version: TU05 59 of 175
 6.6 Project-Based Global Awards
 Project-based global awards are awards that are only judged and awarded once per season and are open to all
 registered FIRST Tech Challenge teams. Each award has its own independent requirements and deadlines.
@@ -2019,13 +2018,13 @@ More information about Project-Based Global Awards coming soon!
 
 Section 7 Game Sponsor
 Recognition
-V1 61 of 173
+Version: TU05 61 of 175
 7 Game Sponsor Recognition
 Thank you to the 2026-2027 FIRST® Tech Challenge season presenting sponsor, RTX.
 
 ## Page 62
 
-Section 8 Game Overview V1 62 of 173
+Section 8 Game Overview Version: TU05 62 of 175
 8 Game Overview
 In BIOBUZZ™ presented by RTX, 2 competing ALLIANCES of 2 teams each collect POLLEN and NECTAR,
 LAUNCHING them into their HIVE and placing them into FLOWERS.
@@ -2044,7 +2043,7 @@ completing other scoring achievements.
 
 ## Page 63
 
-Section 9 ARENA V1 63 of 173
+Section 9 ARENA Version: TU05 63 of 175
 9 ARENA
 The ARENA includes all elements of the game infrastructure that are required to play BIOBUZZ: the FIELD,
 SCORING ELEMENTS, queue area, team media area, and all equipment needed for event management.
@@ -2066,7 +2065,7 @@ dimensions carry a tolerance of +/- 1 in. (+/- 2.5 cm).
 
 ## Page 64
 
-Section 9 ARENA V1 64 of 173
+Section 9 ARENA Version: TU05 64 of 175
 The complete list of BIOBUZZ FIELD resources is posted on the Playing Field Resources page on the FIRST
 website.
 The ARENA is modular and is assembled, used, disassembled, and transported
@@ -2104,7 +2103,7 @@ consistent with each other per T404.
 
 ## Page 65
 
-Section 9 ARENA V1 65 of 173
+Section 9 ARENA Version: TU05 65 of 175
 9.3 Areas, Zones, & Markings
 FIELD areas, zones, and markings of consequence are described below.
 − The term “zone” is used to identify spaces within the FIELD.
@@ -2126,7 +2125,7 @@ volume bounded by red or blue tape and the adjoining FIELD perimeters. The LOADI
 
 ## Page 66
 
-Section 9 ARENA V1 66 of 173
+Section 9 ARENA Version: TU05 66 of 175
 includes the tape lines (Figure 9-3). The LOADING ZONE is an ALLIANCE specific zone belonging to
 the ALLIANCE with the adjacent ALLIANCE AREA.
 − GARDEN: an approximately 23 in. (58.40 cm) by 2 in. (5.10 cm) wide and infinitely tall volume
@@ -2136,7 +2135,7 @@ Figure 9-3: LOADING ZONE and GARDEN (shown with POLLEN hidden)
 
 ## Page 67
 
-Section 9 ARENA V1 67 of 173
+Section 9 ARENA Version: TU05 67 of 175
 9.4 TILE Coordinates
 TILE coordinates are used to assist with FIELD setup. Figure 9-4 defines the intersections of each of the TILES
 on the FIELD where the TILE tabs interlock. Figure 9-5 defines the grid coordinate system for each of the TILES.
@@ -2144,7 +2143,7 @@ Figure 9-4: TILE seam/tab-line locations Figure 9-5: TILE locations
 
 ## Page 68
 
-Section 9 ARENA V1 68 of 173
+Section 9 ARENA Version: TU05 68 of 175
 9.5 ALLIANCE AREA
 An ALLIANCE AREA is the designated red or blue ALLIANCE AREA adjacent to the FIELD where the DRIVE
 TEAMS stage themselves during a MATCH.
@@ -2158,7 +2157,7 @@ Figure 9-6: ALLIANCE AREA
 
 ## Page 69
 
-Section 9 ARENA V1 69 of 173
+Section 9 ARENA Version: TU05 69 of 175
 9.6 HIVE Structure
 Figure 9-7: HIVE Structure
 The HIVE Structure is located in the center of the FIELD. A frame holds a red HIVE and a blue HIVE. Each HIVE
@@ -2177,7 +2176,7 @@ events.
 
 ## Page 70
 
-Section 9 ARENA V1 70 of 173
+Section 9 ARENA Version: TU05 70 of 175
 Figure 9-8: Frame
 9.6.2 HIVE and CELL
 Each HIVE is a bi-stable structure made up of two CELLS and a connecting assembly that rotates on a pivot.
@@ -2189,13 +2188,13 @@ deep as shown in Figure 9-11.
 
 ## Page 71
 
-Section 9 ARENA V1 71 of 173
+Section 9 ARENA Version: TU05 71 of 175
 Figure 9-9: HIVE Details
 Figure 9-10: HIVE and CELL Key Details
 
 ## Page 72
 
-Section 9 ARENA V1 72 of 173
+Section 9 ARENA Version: TU05 72 of 175
 Figure 9-11: CELL
 9.7 FLOWER
 The FLOWER is a structure on the FIELD in which POLLEN and NECTAR can be placed into the top, and
@@ -2214,12 +2213,12 @@ on the perimeter wall side with square extrusion.
 
 ## Page 73
 
-Section 9 ARENA V1 73 of 173
+Section 9 ARENA Version: TU05 73 of 175
 Figure 9-12: FLOWER details
 
 ## Page 74
 
-Section 9 ARENA V1 74 of 173
+Section 9 ARENA Version: TU05 74 of 175
 9.8 SCORING ELEMENTS
 SCORING ELEMENTS for BIOBUZZ are POLLEN and NECTAR.
 − POLLEN are approximately 2.8 in. (7.1 cm) Gopher ResisDent™ polyethylene balls in yellow (am-
@@ -2241,7 +2240,7 @@ location of the AprilTag Cluster relative to the rest of the FIELD. AprilTag dim
 
 ## Page 75
 
-Section 9 ARENA V1 75 of 173
+Section 9 ARENA Version: TU05 75 of 175
 Figure 9-15: AprilTag Cluster and Reference Hole layout
 Images from this manual are examples and not to scale and not intended to be
 printed for practice purposes.
@@ -2252,7 +2251,7 @@ edge oriented towards the center of the FIELD (Figure 9-16).
 
 ## Page 76
 
-Section 9 ARENA V1 76 of 173
+Section 9 ARENA Version: TU05 76 of 175
 Figure 9-16: AprilTag Cluster on CELL
 The AprilTags are located in the following locations on the FIELD, and in the order indicated in Figure 9-17:
 − AprilTag ID’s 0, , , on the red CELL on the side of the FIELD opposite of the audience.
@@ -2262,12 +2261,12 @@ The AprilTags are located in the following locations on the FIELD, and in the or
 
 ## Page 77
 
-Section 9 ARENA V1 77 of 173
+Section 9 ARENA Version: TU05 77 of 175
 Figure 9-17: AprilTag Locations on the BIOBUZZ FIELD
 
 ## Page 78
 
-Section 9 ARENA V1 78 of 173
+Section 9 ARENA Version: TU05 78 of 175
 9.10 FIELD STAFF
 FIELD STAFF are volunteers present in and around the ARENA that are responsible for making sure the
 MATCHES are cycled through efficiently, fairly, safely, and with a spirit of cooperation, Gracious
@@ -2294,7 +2293,7 @@ Challenge volunteer roles, please refer to the volunteer resources.
 
 ## Page 79
 
-Section 9 ARENA V1 79 of 173
+Section 9 ARENA Version: TU05 79 of 175
 9.11 Event Management System
 The FIRST event management system is the software responsible for managing the MATCH scores and other
 event inputs. The system encompasses all FIELD electronics, including computers, displays, REFEREE, and
@@ -2315,7 +2314,7 @@ to
 0:01
 “Drivers, pick up your controllers, -2- ”
 TELEOP begins 2:00 “ Bells”
-FLOWER Ownership Unlocked 1:00 [TBD]
+FLOWER Ownership Unlocked 1:00 “Chime”
 Final 20 seconds 0:20 “Train Whistle”
 MATCH end 0:00 “ -second Buzzer”
 MATCH stopped N/A “Foghorn”
@@ -2326,7 +2325,7 @@ MATCH stopped N/A “Foghorn”
 
 ## Page 81
 
-Section 10 Game Details V1 81 of 173
+Section 10 Game Details Version: TU05 81 of 175
 10 Game Details
 Figure 10-1: FIELD for BIOBUZZ
 In BIOBUZZ, 2 ALLIANCES (an ALLIANCE is a cooperative of 2 FIRST Tech Challenge teams) play MATCHES,
@@ -2352,7 +2351,7 @@ with more than 1 team).
 
 ## Page 82
 
-Section 10 Game Details V1 82 of 173
+Section 10 Game Details Version: TU05 82 of 175
 The intent is not to allow teams to “adopt” members of other teams for
 STRATEGIC advantage for the loaning team, borrowing team, and/or their
 ALLIANCE (e.g., an ALLIANCE Lead believes 1 of their DRIVERS has more
@@ -2386,7 +2385,7 @@ places as described in Section 10.3.2 DRIVE TEAMS.
 
 ## Page 83
 
-Section 10 Game Details V1 83 of 173
+Section 10 Game Details Version: TU05 83 of 175
 10.3.1 SCORING ELEMENTS
 Figure 10-2: SCORING ELEMENT staging positions
 Each HIVE is tilted such that one CELL is pointed down, and the other CELL is pointed up, as shown. (An easy
@@ -2404,7 +2403,7 @@ against the perimeter wall.
 
 ## Page 84
 
-Section 10 Game Details V1 84 of 173
+Section 10 Game Details Version: TU05 84 of 175
 POLLEN in the GARDEN is placed in a line starting in the corner closest to the
 ALLIANCE AREA and contacting the audience or rear perimeter wall. Some minor
 variance in placement may occur.
@@ -2446,12 +2445,13 @@ STATION app.
 
 ## Page 85
 
-Section 10 Game Details V1 85 of 173
+Section 10 Game Details Version: TU05 85 of 175
 10.3.4 ROBOTS
 DRIVE TEAMS stage their ROBOT in accordance with G304. A DRIVE TEAM obstructing or delaying ROBOT
 setup requirements is at risk of violating G301.
 ROBOTS must start the MATCH contacting 4 pre-loaded POLLEN. POLLEN may be held in or on a ROBOT or
-placed on the TILES contacting the ROBOT in its starting location.
+placed on the TILES fully contained on its own ALLIANCE side of the FIELD contacting the ROBOT in its starting
+location.
 If a ROBOT is DISABLED prior to the start of a MATCH, it can be removed from the FIELD in coordination with
 FIELD STAFF. A team whose ROBOT is DISABLED or not present is eligible to receive Qualification MATCH
 Points or Playoff MATCH points provided that its ROBOT has passed inspection per Section 3.3.1
@@ -2475,7 +2475,7 @@ TELEOP, DRIVERS remotely operate ROBOTS to score points. See Table 9-1 for detai
 
 ## Page 86
 
-Section 10 Game Details V1 86 of 173
+Section 10 Game Details Version: TU05 86 of 175
 10.5 Scoring
 ALLIANCES are rewarded for accomplishing various actions throughout a MATCH as shown in Table 10-2.
 ALLIANCES are rewarded for their performance during MATCHES via MATCH points and RANKING POINTS
@@ -2502,7 +2502,7 @@ transition period, and after the MATCH ends at 0:00 may be subject to penalties.
 
 ## Page 87
 
-Section 10 Game Details V1 87 of 173
+Section 10 Game Details Version: TU05 87 of 175
 10.5.1 HIVE Scoring Criteria
 HIVE TIP
 The HIVE is considered TIPPED when:
@@ -2529,7 +2529,7 @@ ALLIANCE.
 
 ## Page 88
 
-Section 10 Game Details V1 88 of 173
+Section 10 Game Details Version: TU05 88 of 175
 10.5.2 FLOWER Scoring Criteria
 NECTAR and POLLEN score when they are at least partially within the FLOWER scoring volume: between the
 top ring and the middle ring as highlighted purple and included in CAD Reference 10-4.
@@ -2549,7 +2549,7 @@ FLOWER, regardless of which ALLIANCE placed the POLLEN and/or NECTAR in the FLOW
 
 ## Page 89
 
-Section 10 Game Details V1 89 of 173
+Section 10 Game Details Version: TU05 89 of 175
 Figure 10-5: FLOWER Ownership
 10.5.3 GARDEN Scoring Criteria
 To qualify for GARDEN points, POLLEN or NECTAR must be at least partially in the GARDEN zone.
@@ -2562,7 +2562,7 @@ corresponds with the color of the GARDEN.
 
 ## Page 90
 
-Section 10 Game Details V1 90 of 173
+Section 10 Game Details Version: TU05 90 of 175
 Figure 10-6: GARDEN Scoring
 10.5.4 ROBOT Scoring Criteria
 LEAVE
@@ -2574,7 +2574,7 @@ Figure 10-7: LOADING ZONE PARK Examples
 
 ## Page 91
 
-Section 10 Game Details V1 91 of 173
+Section 10 Game Details Version: TU05 91 of 175
 10.5.5 Point Values
 Table 10-2: BIOBUZZ Point Values
 MATCH points RANKING
@@ -2615,7 +2615,7 @@ experience they want to provide teams.
 
 ## Page 92
 
-Section 10 Game Details V1 92 of 173
+Section 10 Game Details Version: TU05 92 of 175
 10.6 Violations
 FIRST Tech Challenge uses 3 words in the context of how durations and actions are assessed with regards to
 evaluation of rules and assignment of violations. These words provide general guidance to describe
@@ -2655,7 +2655,7 @@ tournament phase results in a RED CARD
 
 ## Page 93
 
-Section 10 Game Details V1 93 of 173
+Section 10 Game Details Version: TU05 93 of 175
 RED CARD
 a penalty issued by the Head REFEREE for egregious ROBOT or team member
 behavior or rule violations which results in a team being DISQUALIFIED for the
@@ -2672,29 +2672,27 @@ used in FIRST Tech Challenge to address team and ROBOT behavior that violates be
 guidelines as described in Section 1.5 Competition Integrity Contract (CIC).
 The Head REFEREE may assign
 − a YELLOW CARD as a warning, or
-− a RED CARD for behaviors that violate the CIC as outlined by the Escalation Guidelines (coming
-soon).
+− a RED CARD for behaviors that violate the CIC as outlined by the Escalation Guidelines.
 A RED CARD results in MATCH DISQUALIFICATION. A team that has received either a YELLOW or a RED CARD
 carries a YELLOW CARD into subsequent MATCHES, except as noted below.
 If an action resulting in the assignment of a YELLOW or RED CARD is determined to be the result of an ARENA
 FAULT, per Section 13.2 MATCH Replays, the CARD will be rescinded.
 YELLOW CARDS are additive, meaning that a second YELLOW CARD is automatically converted to a RED
 CARD. A team is issued a RED CARD for any subsequent incident in which they receive an additional YELLOW
-CARD, including earning a second YELLOW CARD during a single MATCH. A team that has received either a
-YELLOW CARD or a RED CARD carries a YELLOW CARD into subsequent MATCHES, except as noted below.
+CARD, including earning a second YELLOW CARD during a single MATCH.
 A YELLOW CARD, a second YELLOW CARD, or RED CARD is indicated on the audience display MATCH results
 screen (Figure 10-8). A YELLOW CARD is displayed as a yellow rectangle, a second YELLOW CARD is displayed
 as a red rectangle over a yellow rectangle, and a RED CARD is displayed as a red rectangle.
 Figure 10-8: Example MATCH results graphic showing YELLOW and RED CARD indicators
 In the event MATCHES are played out-of-order, a subsequent MATCH is any chronologically later MATCH play,
 regardless of the originally scheduled time or the numbering of the MATCH.
-
-## Page 94
-
-Section 10 Game Details V1 94 of 173
 Once a team receives a YELLOW or RED CARD, its team number is presented with a yellow background on the
 audience display screen during all subsequent MATCHES, including any replays, as a reminder to the team, the
 REFEREES, and the audience that they carry a YELLOW CARD.
+
+## Page 94
+
+Section 10 Game Details Version: TU05 94 of 175
 Figure 10-9: Example in-MATCH audience screen graphic showing YELLOW CARD indicators
 All YELLOW CARDS and G301 VERBAL WARNINGS are cleared at the conclusion of Practice, Qualification, and
 division Playoff MATCHES. Other VERBAL WARNINGS issued by the Head REFEREE are cleared after Practice
@@ -2730,7 +2728,7 @@ Section 10.6.4 Violation Details.
 
 ## Page 95
 
-Section 10 Game Details V1 95 of 173
+Section 10 Game Details Version: TU05 95 of 175
 10.6.3 YELLOW and RED CARDS during Playoff MATCHES
 During Playoff MATCHES, YELLOW and RED CARDS are assigned to the violating team’s entire ALLIANCE
 instead of to only the violating team. If an ALLIANCE receives 2 YELLOW CARDS, the entire ALLIANCE is issued
@@ -2741,18 +2739,13 @@ clarification of the way the violation would be assessed. The examples shown do 
 violations, but rather a representative set of combinations.
 Table 10-6: Violation examples
 Example Violation Expanded Interpretation
-MINOR FOUL Upon violation, a MINOR FOUL is assessed against the violating
-ALLIANCE.
-MAJOR FOUL and
-YELLOW CARD per
-instance.
-Upon violation, a MAJOR FOUL is assessed against the violating
-ALLIANCE. After the MATCH, the team is issued a YELLOW CARD.
+MINOR FOUL Upon instance of violation, a MINOR FOUL is assessed against the
+violating ALLIANCE.
 MINOR FOUL per
 SCORING ELEMENT.
-Upon violation, a MINOR FOUL is assessed against the violating
-ALLIANCE equal to the number of SCORING ELEMENTS used in
-violation of the rule.
+Upon instance of violation, a MINOR FOUL is assessed against the
+violating ALLIANCE equal to the number of SCORING ELEMENTS used
+in violation of the rule.
 MAJOR FOUL per
 instance. MAJOR
 FOUL per instance
@@ -2761,15 +2754,18 @@ per MATCH if
 REPEATED.
 Upon initial violation in a MATCH, a MAJOR FOUL is assessed against
 the violating ALLIANCE per instance of a violation occurring.
-If the condition of REPEATED in the second statement is met -- the
-ROBOT repeats the infraction in the MATCH, then an additional
-MAJOR FOUL is assessed against the violating ALLIANCE and after
-the MATCH, the violating team is issued a YELLOW CARD.
+If the condition of REPEATED in the second statement is met – i.e., the
+ROBOT repeats the infraction an additional time in the MATCH, then an
+additional MAJOR FOUL is assessed against the violating ALLIANCE
+for the subsequent instance of violation and after the MATCH, the
+violating team is issued a YELLOW CARD for the subsequent instance
+of violation.
 Assuming no additional infractions of that rule by that ROBOT in that
 MATCH, the ROBOT is assessed two MAJOR FOULS and a YELLOW
-CARD for their ALLIANCE. Additional violations during the MATCH
-would increase the number of MAJOR FOULS assessed during the
-MATCH but not the number of YELLOW CARDS issued for the MATCH.
+CARD for their team in that MATCH. Additional violations of this rule
+during the MATCH would increase the number of MAJOR FOULS
+assessed during the MATCH but not the number of YELLOW CARDS
+issued for the MATCH.
 MAJOR FOUL and an
 additional MAJOR
 FOUL for every 3
@@ -2786,7 +2782,7 @@ no other rules were being simultaneously violated).
 
 ## Page 96
 
-Section 10 Game Details V1 96 of 173
+Section 10 Game Details Version: TU05 96 of 175
 Example Violation Expanded Interpretation
 VERBAL WARNING.
 MAJOR FOUL and
@@ -2799,28 +2795,29 @@ STRATEGIC by the REFEREES, then a MAJOR FOUL is assessed
 against the violating ALLIANCE and after the MATCH, the violating
 team is issued a YELLOW CARD.
 MAJOR FOUL per
-instance of violation.
-MAJOR FOUL and
-YELLOW CARD if
-REPEATED.
-Upon the first violation, a MAJOR FOUL is assessed against the
-violating team. If the condition “if REPEATED” (e.g., a subsequent
-violation by the same team in the same MATCH) is met, then the
-violating team is issued another MAJOR FOUL. If these are the only
-violations during the MATCH: after the MATCH, the violating team is
-assessed a YELLOW CARD for the second violation of this rule. In
-total, 2 MAJOR FOULS and a YELLOW CARD were assessed during the
-MATCH.
+MATCH. MAJOR
+FOUL and YELLOW
+CARD per MATCH, if
+STRATEGIC.
+If one or more violations occurs by a team during MATCH, a MAJOR
+FOUL is assessed against the violating ALLIANCE per MATCH.
+However, if the violation is perceived to be STRATEGIC by the
+REFEREES, a MAJOR FOUL is assessed per team per MATCH against
+the violating ALLIANCE. After the MATCH, the team is issued a
+YELLOW CARD per MATCH.
+Only 1 MAJOR FOUL and up to 1 YELLOW CARD can be earned by a
+team in a single MATCH.
 VERBAL WARNING.
 YELLOW CARD if
 subsequent violations
 occur during the
 event.
-Upon the first violation, a VERBAL WARNING is issued to the violating
-team. If an additional violation of the same rule occurs later in the
-event, that is: a MATCH during the same event phase or a later event
-phase, then following any subsequent violation: after the MATCH, the
-violating team is issued a YELLOW CARD.
+Upon the first instance of violation, a VERBAL WARNING is issued to
+the violating team. If an additional instance of violation of the same
+rule occurs later in the event, that is: a MATCH during the same event
+phase or a later event phase, then following any subsequent violation:
+after the MATCH, the violating team is issued a YELLOW CARD per
+instance.
 VERBAL WARNING.
 MAJOR FOUL and
 YELLOW CARD per
@@ -2846,15 +2843,15 @@ Only 1 MAJOR FOUL and 1 CARD can be earned for a single violation
 instance; however, multiple MAJOR FOULS and CARDS may be earned
 in a single MATCH if multiple instances of the violation occurred
 during the MATCH.
+
+## Page 97
+
+Section 10 Game Details Version: TU05 97 of 175
 10.7 Head REFEREE
 The Head REFEREE has the ultimate authority in the ARENA during the event, per T401, but may receive input
 from additional sources, e.g., FIRST personnel, FTA, Event Director, or other event staff. The Head REFEREE
 rulings are final. No event staff, including the Head REFEREE, will review video, photos, artistic renderings, etc.
 of any MATCH, from any source, under any circumstances.
-
-## Page 97
-
-Section 10 Game Details V1 97 of 173
 10.8 Other Logistics
 10.8.1 Practice MATCH Participation
 The FTA, LRI, or Head REFEREE may prohibit a team from participating in a Practice MATCH if they determine
@@ -2878,8 +2875,8 @@ During a MATCH, FIELD STAFF may follow steps in the Field Mitigation Guide (comi
 FIELD issues during a MATCH.
 10.8.4 FIELD Reset
 Once the MATCH is over and the Head REFEREE or their designee determines that the FIELD and FIELD STAFF
-are ready, they will signal for DRIVE TEAMS to stop their ROBOTS, which initiates FIELD reset and prompts
-DRIVE TEAMS to retrieve their ROBOTS.
+are ready, they will give a signal, which initiates FIELD reset and prompts DRIVE TEAMS to retrieve their
+ROBOTS.
 During FIELD reset, the FIELD is cleared of ROBOTS and OPERATOR CONSOLES from the MATCH that just
 ended, ROBOTS and OPERATOR CONSOLES for the subsequent MATCH are loaded into the FIELD by DRIVE
 TEAMS, and FIELD STAFF reset ARENA elements.
@@ -2890,7 +2887,7 @@ TEAMS, and FIELD STAFF reset ARENA elements.
 
 ## Page 99
 
-Section 11 Game Rules (G) V1 99 of 173
+Section 11 Game Rules (G) Version: TU05 99 of 175
 11 Game Rules (G)
 11.1 Personal Safety
 G101 *Humans, stay off the FIELD during the MATCH. A team member may not enter the FIELD during a
@@ -2920,11 +2917,11 @@ Values, and the rest of Section 1.4.2 Framework of Behaviors for more informatio
 Violation: VERBAL WARNING. YELLOW CARD if subsequent violations occur during the event.
 Particularly contemptible behavior may result in ARENA ejection for individuals,
 disqualification for teams, and may be subject to further escalation as described
-in the Escalation Guidelines (coming soon).
+in the Escalation Guidelines.
 
 ## Page 100
 
-Section 11 Game Rules (G) V1 100 of 173
+Section 11 Game Rules (G) Version: TU05 100 of 175
 G202 *Follow the Competition Integrity Contract (CIC). When playing BIOBUZZ, teams must follow the rules
 and follow the Competition Integrity Contract (CIC) described in Section 1.5 Competition
 Integrity Contract (CIC) during every MATCH.
@@ -2965,7 +2962,7 @@ being acted on to avoid the penalty, such as:
 
 ## Page 101
 
-Section 11 Game Rules (G) V1 101 of 173
+Section 11 Game Rules (G) Version: TU05 101 of 175
 A. a red ALLIANCE ROBOT deliberately drives into a blue ALLIANCE ROBOT that
 is lined up to score NECTAR into a FLOWER with 65 seconds left in the
 MATCH, causing them drop the NECTAR into the FLOWER early in violation of
@@ -2973,7 +2970,7 @@ G410.
 B. a red ALLIANCE ROBOT drives through the blue LOADING ZONE while a blue
 DRIVE TEAM member is introducing NECTAR to the FIELD, deflecting the blue
 NECTAR before it contacts the TILE in the LOADING ZONE, in violation of
-G426.
+G427.
 G205 *Egregious or exceptional violations. Egregious behavior beyond what is listed in the rules or
 subsequent violations of any rule or procedure during the event is prohibited.
 In addition to rule violations explicitly listed in this manual and witnessed by a REFEREE, the Head
@@ -3001,7 +2998,7 @@ event.
 
 ## Page 102
 
-Section 11 Game Rules (G) V1 102 of 173
+Section 11 Game Rules (G) Version: TU05 102 of 175
 11.3 Pre-MATCH
 G301 *Don’t delay MATCHES. DRIVE TEAM members may not cause significant delays to the start of their
 MATCH. Both of these conditions must be met prior to team actions being considered:
@@ -3043,7 +3040,7 @@ to significantly alter a ROBOT’S capabilities). Examples of good faith efforts
 
 ## Page 103
 
-Section 11 Game Rules (G) V1 103 of 173
+Section 11 Game Rules (G) Version: TU05 103 of 175
 quickly become MATCH ready that would not be a violation include but are not
 limited to:
 A. walking safely towards the FIELD with a ROBOT that a team is not actively
@@ -3087,7 +3084,7 @@ laser pointers onto the FIELD during a MATCH.
 
 ## Page 104
 
-Section 11 Game Rules (G) V1 104 of 173
+Section 11 Game Rules (G) Version: TU05 104 of 175
 G303 *ROBOTS on the FIELD must come ready to play a MATCH. A ROBOT must meet all following MATCH-
 start requirements:
 A. does not pose a hazard to humans, ARENA elements, or other ROBOTS,
@@ -3110,7 +3107,7 @@ D. not contacting or in the scoring volume of a FLOWER,
 E. not in the LOADING ZONE,
 F. confined to its STARTING CONFIGURATION (see R102 and R103),
 G. in contact with exactly 4 POLLEN pre-loads as described in Section 10.3.1 SCORING
-ELEMENTS, and
+ELEMENTS fully contained on its own ALLIANCE side of the FIELD, and
 H. fully motionless following completion of OpMode initialization,
 Violation: The MATCH will not start until all requirements are met, if there is a quick remedy. DISABLED or
 removed from FIELD, if it is not a quick remedy.
@@ -3124,7 +3121,7 @@ Figure 11-1 shows examples of several possible legal ROBOT starting locations.
 
 ## Page 105
 
-Section 11 Game Rules (G) V1 105 of 173
+Section 11 Game Rules (G) Version: TU05 105 of 175
 Figure 11-1: Examples of allowed ROBOT starting locations
 G305 *Teams must select an OpMode. An OpMode must be selected on the DRIVER STATION app and
 initialized by pressing the INIT button. If this OpMode is an AUTO OpMode, the 30 second AUTO timer
@@ -3140,7 +3137,7 @@ automatically queue up their TELEOP OpMode.
 
 ## Page 106
 
-Section 11 Game Rules (G) V1 106 of 173
+Section 11 Game Rules (G) Version: TU05 106 of 175
 11.4 In-MATCH
 Rules in this section pertain to gameplay once a MATCH begins.
 11.4.1 AUTO
@@ -3179,7 +3176,7 @@ considered powered movement.
 
 ## Page 107
 
-Section 11 Game Rules (G) V1 107 of 173
+Section 11 Game Rules (G) Version: TU05 107 of 175
 Teams may press buttons on their DRIVER STATION app to stop the AUTO
 OpMode, initialize or start a TELEOP OpMode during the AUTO to TELEOP
 transition period. If the INIT portion of the OpMode causes the ROBOT to violate
@@ -3219,7 +3216,7 @@ tear as they are handled by ROBOTS and humans, such as scratching, marking,
 
 ## Page 108
 
-Section 11 Game Rules (G) V1 108 of 173
+Section 11 Game Rules (G) Version: TU05 108 of 175
 and eventually damage due to fatigue. Routinely gouging, tearing off pieces, or
 marking SCORING ELEMENTS are violations of this rule.
 G407 No more than 4 at a time. A ROBOT may not simultaneously CONTROL more than 4 SCORING
@@ -3245,6 +3242,9 @@ deliberate CONTROL of more than 4 SCORING ELEMENTS. This could involve
 guards to prevent SCORING ELEMENTS from accidentally becoming stuck on top
 of the ROBOT and systems to prevent active pickup/intaking of more than 4
 SCORING ELEMENTS.
+REPEATED instances of a ROBOT CONTROLLING 5 or more SCORING
+ELEMENTS are likely to be perceived as STRATEGIC, even if the ROBOT has a
+“keep and discard the rest” sorting mechanism.
 Examples of interaction with a SCORING ELEMENT that are not “CONTROL” and
 would not be a violation of this rule include, but are not limited to:
 D. “bulldozing” (inadvertent contact with a SCORING ELEMENT while in the path
@@ -3255,13 +3255,17 @@ F. SCORING ELEMENTS that have been LAUNCHED by a ROBOT that are no
 longer in contact with the ROBOT.
 G408 Don’t CONTROL opponent NECTAR. A ROBOT may not CONTROL the opponent’s NECTAR.
 Violation: VERBAL WARNING. YELLOW CARD per MATCH, if STRATEGIC.
-G409 Don’t catch SCORING ELEMENTS. A ROBOT may not catch or deflect a SCORING ELEMENT released by
-a TIPPED HIVE unless and until that SCORING ELEMENT contacts anything else besides that ROBOT.
-Violation: VERBAL WARNING. YELLOW CARD per MATCH, if STRATEGIC.
 
 ## Page 109
 
-Section 11 Game Rules (G) V1 109 of 173
+Section 11 Game Rules (G) Version: TU05 109 of 175
+REPEATED instances of a ROBOT CONTROLLING an opponent’s NECTAR are
+likely to be perceived as STRATEGIC, even if the ROBOT has a sorting
+mechanism that automatically discards opponent NECTAR by returning it to
+approximately its original state.
+G409 Don’t catch SCORING ELEMENTS. A ROBOT may not catch or deflect a SCORING ELEMENT released by
+a TIPPED HIVE unless and until that SCORING ELEMENT contacts anything else besides that ROBOT.
+Violation: VERBAL WARNING. YELLOW CARD per MATCH, if STRATEGIC.
 The intent of this rule is for the POLLEN and NECTAR that spills out of a TIPPED
 HIVE to hit the TILE floor before it is collected by any ROBOT. It is not the intent
 to penalize accidental catches of SCORING ELEMENTS of ROBOTS that happen
@@ -3293,6 +3297,10 @@ FLOWER scoring volume until the last 60 seconds of the MATCH.
 Violation: MAJOR FOUL per NECTAR.
 See Section 10.5.2 FLOWER Scoring Criteria for details on the FLOWER
 scoring volume.
+
+## Page 110
+
+Section 11 Game Rules (G) Version: TU05 110 of 175
 The primary FIELD timer display is the cue to indicate when there is 60 seconds
 left in the MATCH.
 Teams are encouraged to make it obvious and unambiguous to REFEREES that
@@ -3300,10 +3308,6 @@ they are not placing NECTAR into a FLOWER too early.
 G411 *Do not hoard SCORING ELEMENTS. An ALLIANCE may not STRATEGICALLY prevent the opposing
 ALLIANCE from accessing SCORING ELEMENTS.
 Violation: MAJOR FOUL and YELLOW CARD per MATCH.
-
-## Page 110
-
-Section 11 Game Rules (G) V1 110 of 173
 An ALLIANCE using their own NECTAR and/or POLLEN for scoring is not a
 violation of this rule.
 Corralling relevant SCORING ELEMENTS into a limited portion of the FIELD
@@ -3333,16 +3337,16 @@ down their controllers.
 Violation: VERBAL WARNING. RED CARD, if STRATEGIC.
 G414 *ROBOTS must be identifiable. A ROBOT’S team number and ALLIANCE color must not become
 indeterminate, as perceived by the Head REFEREE.
+
+## Page 111
+
+Section 11 Game Rules (G) Version: TU05 111 of 175
 Violation: VERBAL WARNING. YELLOW CARD, if STRATEGIC.
 Teams are encouraged to robustly affix their ROBOT SIGNS to their ROBOT in
 highly visible locations such that they do not easily fall off or become obscured
 during normal gameplay.
 Corrective action such as revising ROBOT SIGNS may be requested before the
 ROBOT participates in a subsequent MATCH.
-
-## Page 111
-
-Section 11 Game Rules (G) V1 111 of 173
 G415 *Watch your ARENA interaction. A ROBOT is prohibited from the following interactions with an ARENA
 element, except for SCORING ELEMENTS:
 A. grabbing,
@@ -3374,6 +3378,10 @@ HIVE that causes or could cause or impeding a TIP is a violation of this rule.
 Examples of ROBOT actions that are likely to be perceived as STRATEGIC
 include, but are not limited to:
 A. ramming into the HIVE frame at high-speed,
+
+## Page 112
+
+Section 11 Game Rules (G) Version: TU05 112 of 175
 B. ramming into the HIVE frame multiple times in a short time period,
 C. deliberately LAUNCHING NECTAR or POLLEN into the external bottom, sides,
 or top faces of a CELL,
@@ -3381,10 +3389,6 @@ D. impeding the TIP of an opponent’s HIVE by LAUNCHING NECTAR or POLLEN
 at it,
 E. contacting a HIVE directly or transitively through a CONTROLLED SCORING
 ELEMENT, or
-
-## Page 112
-
-Section 11 Game Rules (G) V1 112 of 173
 F. actions that are REPEATED after a warning has been given.
 Examples of actions that are likely to not be perceived as STRATEGIC include,
 but are not limited to:
@@ -3417,6 +3421,10 @@ E. A ROBOT grabs onto the FLOWER and shakes it,
 F. A ROBOT forces NECTAR out of the middle ring with a MECHANISM,
 G. A ROBOT deliberately drives into the perimeter wall at high-speed causing a
 SCORING ELEMENT to fall out of a FLOWER, or
+
+## Page 113
+
+Section 11 Game Rules (G) Version: TU05 113 of 175
 H. A ROBOT deliberately holds a NECTAR up to the side of the FLOWER pipes
 such that it meets the FLOWER scoring criteria.
 Examples of actions that are likely to not be perceived as STRATEGIC include but
@@ -3425,10 +3433,6 @@ I. A ROBOT drives into a FLOWER while attempting to pick up POLLEN off the
 TILES and causes a POLLEN to fall out the top of a FLOWER, or
 J. A ROBOT knocks out a scored POLLEN while attempting to score another
 POLLEN.
-
-## Page 113
-
-Section 11 Game Rules (G) V1 113 of 173
 11.4.5 Opponent Interaction
 Note, G419 and G420 are mutually exclusive. A single ROBOT to ROBOT interaction which violates more than 1
 of these rules results in the most punitive penalty, and only the most punitive penalty, being assessed.
@@ -3458,6 +3462,10 @@ E. disconnecting wires inside the ROBOT CHASSIS required for operation of a
 COMPONENT,
 F. disconnecting the opponent ROBOT’S battery (this example also clearly
 results in a RED CARD because the ROBOT is no longer able to drive), or
+
+## Page 114
+
+Section 11 Game Rules (G) Version: TU05 114 of 175
 G. powering off an opponent’s ROBOT by contacting their reasonably well-
 protected power switch. (This example also clearly results in a RED CARD
 because the ROBOT is no longer able to drive.)
@@ -3466,22 +3474,23 @@ a ROBOT to confirm violations of this rule made during a MATCH and remove the
 violation if the damage cannot be verified.
 "Unable to drive" means that because of the incident, the DRIVER can no longer
 drive to a desired location in a reasonable time (generally). For example, if a
-
-## Page 114
-
-Section 11 Game Rules (G) V1 114 of 173
 ROBOT can only move in circles, or can only move extremely slowly, the ROBOT
 is considered unable to drive.
 G420 *Do not tip or entangle. A ROBOT may not attach to, tip over, or entangle an opponent ROBOT.
 Violation: VERBAL WARNING. MAJOR FOUL and YELLOW CARD per instance, if STRATEGIC. MAJOR
 FOUL and RED CARD per instance, if STRATEGIC and either CONTINUOUS or opponent ROBOT is unable
 to drive.
+The attachment to, or entanglement with, exposed or unprotected COMPONENTS
+or MECHANISMS in the course of normal gameplay is not likely to be considered
+a violation of this rule. This includes, but is not limited to:
+A. exposed or unprotected wiring, or
+B. a delicately constructed MECHANISM (such as an intake).
 Examples of actions that are likely to be perceived as STRATEGIC include, but are
 not limited to:
-A. using a wedge-like MECHANISM to tip over an opponent ROBOT,
-B. making frame-to-frame contact with an opponent ROBOT that is attempting
+C. using a wedge-like MECHANISM to tip over an opponent ROBOT,
+D. making frame-to-frame contact with an opponent ROBOT that is attempting
 to right itself after previously falling over and causing them to fall over, or
-C. causing an opponent ROBOT to tip over by contacting the ROBOT after it
+E. causing an opponent ROBOT to tip over by contacting the ROBOT after it
 starts to tip if, as determined by the REFEREE, that contact could have been
 avoided.
 Tipping as an unintended consequence of normal ROBOT-to-ROBOT interaction,
@@ -3495,21 +3504,21 @@ G421 *There is a 3-count on PINS. A ROBOT may not PIN an opponent’s ROBOT for 
 ROBOT is PINNING if it is preventing the movement of an opponent ROBOT by contact, either direct or
 transitive (such as against a FIELD element). A PIN count ends once any of the following criteria below
 are met:
+
+## Page 115
+
+Section 11 Game Rules (G) Version: TU05 115 of 175
 A. the ROBOTS have separated by at least 2 ft. (~61 cm) from each other for more than 3
 seconds,
 B. either ROBOT has moved 2 ft. from where the PIN initiated for more than 3 seconds, or
 C. the PINNING ROBOT gets PINNED.
 For the criteria in G421.A, the PIN count pauses once ROBOTS are separated by 2 ft. until either the PIN
 ends or the PINNING ROBOT moves back within 2 ft., at which point the PIN count is resumed.
-For the criteria in G421.B, the PIN count pauses once either ROBOT has moved 2 ft. from where the PIN
+For the criteria in G421.D, the PIN count pauses once either ROBOT has moved 2 ft. from where the PIN
 initiated until the PIN ends or until both ROBOTS move back within 2 ft., at which point the PIN count is
 resumed.
 Violation: MAJOR FOUL per instance and an additional MAJOR FOUL for every 3 seconds in which the
 situation is not corrected.
-
-## Page 115
-
-Section 11 Game Rules (G) V1 115 of 173
 11.4.6 Human
 G422 *DRIVE TEAM stays in the ALLIANCE AREA. Once a MATCH starts, DRIVE TEAM members may not
 leave their designated ALLIANCE AREA.
@@ -3526,6 +3535,8 @@ Exceptions are granted in cases concerning safety.
 G423 *DRIVE COACHES and other teams: hands off the controls. Once the MATCH starts, DRIVE COACHES
 or members of another team may not handle the gamepads of the OPERATOR CONSOLE.
 Violation: VERBAL WARNING. MAJOR FOUL and YELLOW CARD per MATCH, if STRATEGIC.
+The penalty is applied to the team to which the DRIVE TEAM member that
+violates the rule belongs.
 If a team is facing extenuating circumstances due to a major conflict (i.e.,
 religious holidays, major testing, transportation issues), that team should discuss
 with FIELD STAFF whether an accommodation is available.
@@ -3534,11 +3545,19 @@ A. holding the DRIVER STATION device,
 B. troubleshooting the DRIVER STATION device,
 C. selecting OpModes on the DRIVER STATION app,
 D. pressing the INIT button on the DRIVER STATION app,
+
+## Page 116
+
+Section 11 Game Rules (G) Version: TU05 116 of 175
 E. pressing the (▶) start button on the DRIVER STATION app, or
 F. pressing the (■) stop button on the DRIVER STATION app.
 G424 *DRIVE COACHES, SCORING ELEMENTS are off limits. DRIVE COACHES may not contact SCORING
 ELEMENTS, except for safety purposes.
 Violation: VERBAL WARNING. MINOR FOUL per instance, if STRATEGIC.
+
+## Page 117
+
+Section 11 Game Rules (G) Version: TU05 117 of 175
 G425 *DRIVE TEAMS, watch your reach. Once a MATCH starts, a DRIVE TEAM member may not directly or
 indirectly:
 A. contact a ROBOT,
@@ -3546,32 +3565,37 @@ B. contact a SCORING ELEMENT in contact with a ROBOT or TILE,
 C. disrupt SCORING ELEMENT scoring, or
 D. contact a FIELD element.
 Violation: VERBAL WARNING. MAJOR FOUL and YELLOW CARD per MATCH, if STRATEGIC.
-
-## Page 116
-
-Section 11 Game Rules (G) V1 116 of 173
 Hand-held controllers, hanging wires, items of clothing, and other objects in the
 ALLIANCE AREA can all result in DRIVE TEAM members indirectly contacting a
 ROBOT, and would be violations of this rule.
 Exceptions are granted in cases concerning safety.
-For G425.A and G425.B, the penalty is applied to the DRIVE TEAM member
-regardless of whether the DRIVE TEAM member or ROBOT initiates contact.
+For G425.A and G425.B, the penalty is applied to the team to which the DRIVE
+TEAM member regardless of whether the DRIVE TEAM member belongs or
+ROBOT initiates contact.
 Disrupting scoring includes, but is not limited to:
 A. blocking a ROBOT from scoring in a FLOWER, or
 B. deliberately hitting or shaking the perimeter wall to descore NECTAR or
 POLLEN from the FLOWER.
 G426 Humans may not enter NECTAR onto the FIELD early. DRIVE TEAM members may not enter NECTAR
 onto the FIELD except:
-A. each time the HIVE of their corresponding ALLIANCE color is TIPPED, one NECTAR may be
-entered for that ALLIANCE, or
+A. for each time the HIVE of their corresponding ALLIANCE color is TIPPED, one additional
+NECTAR may be entered for that ALLIANCE, or
 B. when 60 seconds or less remain in the MATCH, all remaining NECTAR can be entered
 whichever comes first.
 Violation: MINOR FOUL per NECTAR.
 The primary FIELD timer is the cue to indicate when there is 60 seconds left in
 the MATCH.
+NECTAR that leaves the FIELD may be re-entered at any time as described in
+G427.
 DRIVE TEAMS are encouraged to ensure the remaining NECTAR in their
 ALLIANCE AREA is visible and make it obvious and unambiguous to REFEREES
 that they are not entering NECTAR too early.
+NECTAR does not have to be entered into the FIELD immediately when a HIVE
+TIP occurs.
+
+## Page 118
+
+Section 11 Game Rules (G) Version: TU05 118 of 175
 G427 Humans, only enter NECTAR via the LOADING ZONE. NECTAR may not be introduced to the FIELD,
 except as follows:
 A. without the use of a tool,
@@ -3587,10 +3611,6 @@ Humans scoring into a HIVE or FLOWER is never allowed and subject to G202
 violations.
 If DRIVE TEAM members come into possession of any POLLEN or opposing
 ALLIANCE NECTAR that has exited the FIELD, they should pass it to the nearest
-
-## Page 117
-
-Section 11 Game Rules (G) V1 117 of 173
 FIELD STAFF for reintroduction into the FIELD per Section 10.8 Other
 Logistics.
 Note: When introducing NECTAR, DRIVE TEAM members must avoid contacting
@@ -3601,11 +3621,11 @@ Violation: MINOR FOUL per SCORING ELEMENT.
 A SCORING ELEMENT is considered on the FIELD if it is contacting a TILE, or in
 and/or on a ROBOT, FIELD element, or SCORING ELEMENT.
 
-## Page 118
+## Page 119
 
 Section 12 ROBOT Construction
 Rules (R)
-V1 118 of 173
+Version: TU05 119 of 175
 12 ROBOT Construction Rules (R)
 The rules listed below explicitly address legal parts and materials and how those parts and materials may be
 used on a ROBOT. A ROBOT is an electromechanical assembly built by a FIRST Tech Challenge team to play
@@ -3644,11 +3664,11 @@ We-Make-It, Inc.
 Example 3: A team obtains openly available design drawings from a professional
 publication and uses them to fabricate a gearbox for their ROBOT. The design
 
-## Page 119
+## Page 120
 
 Section 12 ROBOT Construction
 Rules (R)
-V1 119 of 173
+Version: TU05 120 of 175
 drawings are considered a COTS item and may be used as “raw material” to
 fabricate the gearbox. The finished gearbox itself would be a FABRICATED ITEM,
 and not a COTS item.
@@ -3690,11 +3710,11 @@ circumvent any applicable cost accounting rules.
 FIRST desires to permit teams to have the broadest choice of legitimate sources
 possible, and to obtain COTS items from the sources that provide them with the
 
-## Page 120
+## Page 121
 
 Section 12 ROBOT Construction
 Rules (R)
-V1 120 of 173
+Version: TU05 121 of 175
 best prices and level of service available. Teams also need to protect against
 long delays in availability of parts that will impact their ability to complete their
 ROBOT. The build season is brief, so the VENDOR must be able to get their
@@ -3732,11 +3752,11 @@ team but is not intended to prohibit or discourage assistance from other teams
 (e.g., fabricating elements, supporting construction, writing software, developing
 game strategy, contributing COMPONENTS, and/or MECHANISMS).
 
-## Page 121
+## Page 122
 
 Section 12 ROBOT Construction
 Rules (R)
-V1 121 of 173
+Version: TU05 122 of 175
 Examples that would generally not be considered MAJOR MECHANISMS, and
 thus are not subject to this rule include, but are not limited to:
 A. a gearbox assembly,
@@ -3776,11 +3796,11 @@ ROBOT’S weight on various factors including, but not limited to:
 − ROBOT transportation
 − overall ROBOT performance
 
-## Page 122
+## Page 123
 
 Section 12 ROBOT Construction
 Rules (R)
-V1 122 of 173
+Version: TU05 123 of 175
 R105 A ROBOT must stay as one assembly, and there are limits to how much it can expand. After the
 MATCH has started, ROBOTS may expand beyond the STARTING CONFIGURATION but are still subject
 to sizing constraints relative to the ROBOT, based on the initial STARTING CONFIGURATION. The sizing
@@ -3796,11 +3816,11 @@ The sizing limit volume is defined relative to the FIELD surface and is oriented
 Figure 12-1: Expansion Limit – Top View
 Figure 12-2: Expansion Limit – Side View
 
-## Page 123
+## Page 124
 
 Section 12 ROBOT Construction
 Rules (R)
-V1 123 of 173
+Version: TU05 124 of 175
 The sizing volume is defined relative to the FIELD surface and is oriented such
 that the 29 in. (73.65 cm) dimension is always the vertical height above the FIELD
 surface.
@@ -3823,11 +3843,11 @@ Figure 12-4: Expansion Limit – Allowable Extension
 A ROBOT with multiple MECHANISMS that are not mechanically linked that can
 extend out of both sides of a ROBOT simultaneously would NOT be allowed if the
 
-## Page 124
+## Page 125
 
 Section 12 ROBOT Construction
 Rules (R)
-V1 124 of 173
+Version: TU05 125 of 175
 overall horizontal dimension at maximum mechanical extension exceeds the
 sizing limit (Figure 12-5).
 Figure 12-5: Expansion Limit – Simultaneous Extension
@@ -3847,11 +3867,11 @@ tear as they are handled by ROBOTS, such as scratching or marking. Gouging,
 tearing off pieces, or routinely and repeatedly marking SCORING ELEMENTS are
 violations of this rule and G406.
 
-## Page 125
+## Page 126
 
 Section 12 ROBOT Construction
 Rules (R)
-V1 125 of 173
+Version: TU05 126 of 175
 Examples of “damage risk” ROBOT features include, but are not limited to:
 A. traction devices with features that are known to damage the TILE floor,
 B. COMPONENTS with exposed sharp edges or sharp protrusions, and
@@ -3892,11 +3912,11 @@ at the discretion of the Head REFEREE and/or LRI, and
 K. other items not listed which violate the spirit of the rule regarding safe and
 fair play.
 
-## Page 126
+## Page 127
 
 Section 12 ROBOT Construction
 Rules (R)
-V1 126 of 173
+Version: TU05 127 of 175
 R203 *ROBOTS must be designed to be quickly removed from the FIELD without requiring power. ROBOTS
 must allow removal of SCORING ELEMENTS from the ROBOT and the ROBOT from FIELD elements
 while powered off.
@@ -3935,11 +3955,11 @@ E. turntable,
 F. lead screw, and
 G. single DoF gripper.
 
-## Page 127
+## Page 128
 
 Section 12 ROBOT Construction
 Rules (R)
-V1 127 of 173
+Version: TU05 128 of 175
 Allowed exceptions to this rule are:
 H. ratcheting devices (wrenches, bearings, etc.),
 I. holonomic wheels (omni or mecanum),
@@ -3973,11 +3993,11 @@ FABRICATED ITEMS created before Kickoff are permitted.
 R305 *SCORING ELEMENTS are not allowed for ROBOT construction. Current season SCORING ELEMENTS
 or replicas of SCORING ELEMENTS are not allowed to be used as part of ROBOT construction.
 
-## Page 128
+## Page 129
 
 Section 12 ROBOT Construction
 Rules (R)
-V1 128 of 173
+Version: TU05 129 of 175
 12.4 ROBOT SIGN Rules
 A ROBOT SIGN is a required assembly which attaches to the ROBOT. A ROBOT SIGN simultaneously identifies
 a ROBOT’S team number as well as its ALLIANCE affiliation for FIELD STAFF. Criteria used in writing these
@@ -4001,11 +4021,11 @@ but there is no specific guidance on what is robust enough. Teams should make
 a good faith effort with whatever they have available.
 Figure 12-7: Team Number ROBOT SIGN Sizing
 
-## Page 129
+## Page 130
 
 Section 12 ROBOT Construction
 Rules (R)
-V1 129 of 173
+Version: TU05 130 of 175
 R402 *ROBOT SIGNS indicate your ALLIANCE. Each ROBOT SIGN must contain a rectangle with a solid red
 or blue opaque background at least 6.5 in. by 2.5 in. (16.50 cm by 6.35 cm) in size to indicate their
 ALLIANCE color (Figure 12-7), as assigned in the MATCH schedule at the event. Visible markings on
@@ -4029,11 +4049,11 @@ C. numbers may not be vertically stacked (Figure 12-10),
 D. be made of robust materials, and
 E. cannot be powered or rely on power from any sources to illuminate/reveal numbers.
 
-## Page 130
+## Page 131
 
 Section 12 ROBOT Construction
 Rules (R)
-V1 130 of 173
+Version: TU05 131 of 175
 Figure 12-9: Legal number for team 21001 playing on the blue ALLIANCE
 Figure 12-10: Team number orientation examples for team 1355 playing on the blue ALLIANCE
 If a team at an event does not have completely legal ROBOT SIGNS, and there is
@@ -4045,16 +4065,19 @@ but there is no specific guidance on what is robust enough. Teams should make
 a good faith effort with whatever they have available. If there are limited
 materials available at an event, substitute ROBOT SIGNS may be simply
 handwritten on plain paper.
+Small decorative elements and gaps in numbers are okay as long as the team
+number remains legible from 12 feet (3.65 meters) away and is discernable from
+a quick glance.
 Examples of prohibited team numbers on ROBOT SIGNS include, but not limited
 to:
 − team numbers only visible by edge lit engraved plastic
 − LED Display numbers
 
-## Page 131
+## Page 132
 
 Section 12 ROBOT Construction
 Rules (R)
-V1 131 of 173
+Version: TU05 132 of 175
 12.5 Motors & Actuators
 R501 *Only specific motors are allowed. The only allowed motor actuators are:
 Table 12-1: Motor allowances
@@ -4084,11 +4107,11 @@ Many legal gearmotors are sold with labeling based on the entire assembly.
 These motors may be used with or without the provided gearbox, and/or with any
 other compatible gearbox.
 
-## Page 132
+## Page 133
 
 Section 12 ROBOT Construction
 Rules (R)
-V1 132 of 173
+Version: TU05 133 of 175
 R502 *Servo usage is restricted. Servo actuators must meet the requirements below. Servos must be
 compatible with the power regulation devices they are ultimately used with (per R505) and may include
 additional servo position output interfaces (e.g., 4th Wire Position Feedback).
@@ -4129,11 +4152,11 @@ Hub provide 6V to servos. While virtually all servos are compatible with 6V,
 servos with an operating voltage range of 6-8.4 DCV, for example, may not work
 properly when only provided 5V.
 
-## Page 133
+## Page 134
 
 Section 12 ROBOT Construction
 Rules (R)
-V1 133 of 173
+Version: TU05 134 of 175
 R503 *ROBOTS are limited to a total of 8 motors and 8 servos. A ROBOT may not have more than 8 motors
 and 8 servos from the allowable actuator lists per R501 and R502 for all MECHANISMS used in all
 configurations.
@@ -4176,11 +4199,11 @@ REV Robotics Servo Hub REV-11-1855 2 Servos per Port
 REV SPARKmini REV-31-1230 2 Motors per Device
 Studica Servo Power Block 75005 2 Servos per Port
 
-## Page 134
+## Page 135
 
 Section 12 ROBOT Construction
 Rules (R)
-V1 134 of 173
+Version: TU05 135 of 175
 R506 *The use of relays, electromagnets, and electrical solenoid actuators is prohibited. The application of
 electromechanical actuation through the use of additional relays, electromagnets, electrical solenoid
 actuators, or related systems is prohibited. In addition, the use of relays and electromagnets is also
@@ -4215,11 +4238,11 @@ max output using USB-PD per port, and batteries integral to a self-contained dev
 (e.g., GoPro-style camera) may be used provided they are:
 A. not supplying power to any of the ROBOT actuators, and
 
-## Page 135
+## Page 136
 
 Section 12 ROBOT Construction
 Rules (R)
-V1 135 of 173
+Version: TU05 136 of 175
 B. not used by any devices receiving control signals from the ROBOT control system (i.e., COTS
 USB battery packs must remain electrically isolated from the ROBOT power systems.).
 Exceptions to part B of this rule are:
@@ -4256,11 +4279,11 @@ fuses that are self-resetting.
 R605 *The ROBOT frame cannot be used as a current path. All wiring and electrical devices shall be
 electrically isolated from the ROBOT frame. The ROBOT frame must not be used to carry electrical
 
-## Page 136
+## Page 137
 
 Section 12 ROBOT Construction
 Rules (R)
-V1 136 of 173
+Version: TU05 137 of 175
 current. Electrically grounding the control system electronics to the frame of the ROBOT is only
 permitted such that all of the following conditions are met:
 A. straps/cables used must be from the following approved parts:
@@ -4298,11 +4321,11 @@ R608 *All Power regulating devices must be connected and powered through approve
 regulating devices (R505) must be powered per the manufacturer’s instructions and the following table
 must be true:
 
-## Page 137
+## Page 138
 
 Section 12 ROBOT Construction
 Rules (R)
-V1 137 of 173
+Version: TU05 138 of 175
 Table 12-7: Power Regulation Device Power Requirements
 Power Regulating Device Part Number Method of Powering
 goBILDA 6V Servo Power Injector 3125-0001-0001 Only powered using the XT30 connectors on the
@@ -4348,11 +4371,11 @@ labeled sizes if possible. If unlabeled wiring is used, teams should be prepared
 demonstrate that the wire used meets the requirements of this rule (e.g., wire
 samples and evidence that they are the required size).
 
-## Page 138
+## Page 139
 
 Section 12 ROBOT Construction
 Rules (R)
-V1 138 of 173
+Version: TU05 139 of 175
 Combining multiple smaller wires in parallel cannot be used to create an
 equivalent larger wire which meets minimum wire cross section requirements.
 R610 *Use specified wire colors for specific buses. The 12V main power bus and +5V auxiliary bus wires
@@ -4391,11 +4414,11 @@ B. power from a specific port may only power devices plugged into that exact por
 cross-wire power to other ports, and do not combine power from multiple ports into a single
 power bus/line,
 
-## Page 139
+## Page 140
 
 Section 12 ROBOT Construction
 Rules (R)
-V1 139 of 173
+Version: TU05 140 of 175
 C. 6V power from approved Servo Power modules/injectors may only be used to power servos,
 and
 D. the +5V Aux port on a REV hub may be used to power devices not connected to other power
@@ -4433,11 +4456,11 @@ Example 2: The SparkFun Optical Tracking Odometry Sensor is a laser and IMU
 tracking device that uses an onboard microcontroller to perform complex
 calculations and produce simplified results. SparkFun does provide the source
 
-## Page 140
+## Page 141
 
 Section 12 ROBOT Construction
 Rules (R)
-V1 140 of 173
+Version: TU05 141 of 175
 code and toolchain for advanced users to modify/update the software, which is
 not permitted by this rule. Firmware updates provided by SparkFun are allowed to
 be applied to the device. This device is allowed.
@@ -4479,11 +4502,11 @@ prohibited. No continuous video stream is allowed.
 E. Some events may assign Wi-Fi bands and/or channels to teams. If requested by event staff,
 teams must use the specific frequency band or channel on the day of the competition.
 
-## Page 141
+## Page 142
 
 Section 12 ROBOT Construction
 Rules (R)
-V1 141 of 173
+Version: TU05 142 of 175
 R705 *Configure devices for your team number. The ROBOT CONTROLLER, DRIVER STATION, and any
 spares used must be configured/named to correspond to the correct team number as follows:
 A. ROBOT CONTROLLER should be named <team number>-RC (e.g., 12345-RC),
@@ -4523,11 +4546,11 @@ difficult.
 For example, “repairs” that change connector types, include device footprint
 modifications, or provide mechanical enhancements, are prohibited.
 
-## Page 142
+## Page 143
 
 Section 12 ROBOT Construction
 Rules (R)
-V1 142 of 173
+Version: TU05 143 of 175
 R707 *USB is for vision. Only the following devices may be connected to the ROBOT control system using
 USB:
 A. webcams and optical vision sensors per R708,
@@ -4564,11 +4587,11 @@ Bluetooth must be disabled, and
 D. on DRIVER STATION Android devices, remove all remembered Wi-Fi Direct Groups and Wi-Fi
 connections, leaving only the ROBOT CONTROLLER Wi-Fi connection.
 
-## Page 143
+## Page 144
 
 Section 12 ROBOT Construction
 Rules (R)
-V1 143 of 173
+Version: TU05 144 of 175
 12.8 Pneumatic Systems & Airflow Devices
 R801 *No Pneumatic Actuators, High-Speed Blowers, or Vacuums. ROBOTS are restricted in their use of air
 in the following ways:
@@ -4606,11 +4629,11 @@ Teams who wish to have a spare DRIVER STATION device as part of their
 OPERATOR CONSOLE may do so as long as only one DRIVER STATION device is
 connected and powered on at a time.
 
-## Page 144
+## Page 145
 
 Section 12 ROBOT Construction
 Rules (R)
-V1 144 of 173
+Version: TU05 145 of 175
 R902 *The OPERATOR CONSOLE must make the touch screen accessible. The OPERATOR CONSOLE, the
 set of COMPONENTS and MECHANISMS used by the DRIVE TEAM to relay commands to the ROBOT,
 must make the touch screen of the DRIVER STATION device accessible. The DRIVER STATION device
@@ -4639,9 +4662,13 @@ Examples of prohibited wireless systems include, but are not limited to, active
 wireless network cards, wireless gamepad communication, and Bluetooth
 devices.
 
-## Page 145
+## Page 146
 
-Section 13 Tournament (T) V1 145 of 173
+
+
+## Page 147
+
+Section 13 Tournament (T) Version: TU05 147 of 175
 13 Tournament (T)
 13.1 Overview
 Each FIRST Tech Challenge competition is played in a head-to-head tournament format. Each tournament
@@ -4678,9 +4705,9 @@ justifications for a replay. Conditions such as, but not limited to, low ROBOT
 battery, programming issues, or ROBOT mechanical problems are not grounds
 for a replay.
 
-## Page 146
+## Page 148
 
-Section 13 Tournament (T) V1 146 of 173
+Section 13 Tournament (T) Version: TU05 148 of 175
 The outcome of the MATCH is affected if an error occurs that, as perceived by
 the Head REFEREE, changes which ALLIANCE would have won the MATCH
 and/or the assignment of RANKING POINTS.
@@ -4715,14 +4742,14 @@ badge to their corresponding Question Box. Depending on timing, the Head REFEREE
 requested discussion until the end of the subsequent MATCH.
 Technical questions regarding FIELD or ROBOT operation are addressed by the FTA, and additional team
 members are invited to participate in these conversations if necessary. If a DRIVE TEAM needs clarification on
-a ruling or MATCH results, per T301, up to two STUDENTS should address the Head REFEREE after the MATCH
-results have been shown.
+a ruling or MATCH results, per T301, up to two representatives should address the Head REFEREE after the
+MATCH results have been shown.
 While the FIRST event management software tracks quantities of MINOR and MAJOR FOULS, FIRST instructs
 REFEREES to not self-track details about MINOR FOULS and MAJOR FOULS; as a result, we do not expect
 
-## Page 147
+## Page 149
 
-Section 13 Tournament (T) V1 147 of 173
+Section 13 Tournament (T) Version: TU05 149 of 175
 REFEREES to recall details about what MINOR FOULS and MAJOR FOULS were made, when they occurred, and
 against whom.
 Any reasonable question is fair game in the Question Box, and Head REFEREES
@@ -4740,7 +4767,7 @@ the Question Box.
 As much as possible, the STUDENT should be an active participant in the
 conversation. Teams should not record interactions without consent (see E116).
 T302 *MATCH questions must be timely. If a team would like to clarify or dispute the results of a MATCH
-using the process per T301 they must present their STUDENT representative in the question box in a
+using the process per T301 they must present their STUDENT representative in the Question Box in a
 timely manner as outlined below:
 A. questions regarding events in a Qualification MATCH may be asked at any time before
 ALLIANCE selection begins, or within 5 minutes of the last Qualification MATCH at events
@@ -4756,15 +4783,15 @@ more than 5 minutes after the last Playoff MATCH will likely not be addressed.
 T303 *Keep questions factual and constructive. Teams coming to the Question Box should think through
 their requests in advance and are encouraged to have relevant references to rules or the Q&A website
 available to aid discussions.
-There should be no negative implications for teams using the question box to
+There should be no negative implications for teams using the Question Box to
 advocate for themselves, but everyone should keep in mind it can be a high
 stress situation for team youth and for volunteers alike and it is important to
 remember FIRST Core Values during these discussions.
 At some events, MATCH results may be available on the FTC-Events page.
 
-## Page 148
+## Page 150
 
-Section 13 Tournament (T) V1 148 of 173
+Section 13 Tournament (T) Version: TU05 150 of 175
 13.4 General Tournament Rules
 T401 *The Head REFEREE has ultimate and final authority regarding gameplay during the event. The Head
 REFEREE may receive input from additional sources, e.g., FIRST personnel, FTA, Event Director,
@@ -4806,9 +4833,9 @@ T404 *All competition FIELDS at an event must be consistent with each other. Eve
 competition FIELDS (as indicated by the MATCH schedule Figure 13-1) will be consistent with each
 other. Examples of set-up which must be considered includes, but is not limited to:
 
-## Page 149
+## Page 151
 
-Section 13 Tournament (T) V1 149 of 173
+Section 13 Tournament (T) Version: TU05 151 of 175
 A. elevation of the FIELD off the floor,
 B. FIELD display monitors,
 C. FIELD perimeter type, and
@@ -4849,9 +4876,9 @@ A. In Qualification MATCHES, each team will have a minimum of 5 minutes from whe
 MATCH results are posted from their previous MATCH until the expected start time of their
 next MATCH for the purpose of G301.
 
-## Page 150
+## Page 152
 
-Section 13 Tournament (T) V1 150 of 173
+Section 13 Tournament (T) Version: TU05 152 of 175
 B. In Playoff MATCHES, each team will have a minimum of 8 minutes from when MATCH
 results are posted from their previous MATCH until the expected start time of their next
 MATCH for the purpose of G301.
@@ -4880,9 +4907,9 @@ The intent of this rule is to ensure that MATCHES are played in an orderly fashi
 while providing flexibility for unforeseen circumstances. Regardless of play order,
 T406 and G301 remain in effect.
 
-## Page 151
+## Page 153
 
-Section 13 Tournament (T) V1 151 of 173
+Section 13 Tournament (T) Version: TU05 153 of 175
 13.5 Practice MATCHES
 Practice MATCHES are played before Qualification MATCHES, at events that have them. The Practice MATCH
 schedule is available as soon as possible but no later than the start of Practice MATCHES. Schedules may also
@@ -4920,9 +4947,9 @@ and the Event Director.
 A MATCH schedule is used to coordinate MATCHES at an event. Figure 13-1 details information shown on
 each schedule. SURROGATE MATCHES are described in Section 13.6.2 MATCH Assignment.
 
-## Page 152
+## Page 154
 
-Section 13 Tournament (T) V1 152 of 173
+Section 13 Tournament (T) Version: TU05 154 of 175
 Figure 13-1: Sample MATCH Schedule
 13.6.2 MATCH Assignment
 FIRST event management software assigns each team 1 ALLIANCE partner for each Qualification MATCH
@@ -4951,9 +4978,9 @@ RANKING POINTS (RP) are units credited to a team based on their ALLIANCE’S per
 MATCHES. These points are awarded to each eligible team at the completion of each Qualification MATCH per
 Table 10-2.
 
-## Page 153
+## Page 155
 
-Section 13 Tournament (T) V1 153 of 173
+Section 13 Tournament (T) Version: TU05 155 of 175
 A team's RANKING SCORE (RS) is the average number of RANKING POINTS earned by a team throughout their
 Qualification MATCHES (excluding any SURROGATE MATCH).
 All teams participating in Qualification MATCHES are ranked by RANKING SCORE. If the number of teams in
@@ -4974,9 +5001,9 @@ MATCH points minus FOULS)
 T601 *DISQUALIFICATION applies only to the DISQUALIFIED team in Qualifications. During Qualification
 MATCHES, a team DISQUALIFICATION has no effect on their ALLIANCE partner.
 
-## Page 154
+## Page 156
 
-Section 13 Tournament (T) V1 154 of 173
+Section 13 Tournament (T) Version: TU05 156 of 175
 13.7 Playoff MATCHES
 Playoff MATCHES follow the Qualification MATCHES. In the Playoffs, teams play on set ALLIANCES, chosen
 during ALLIANCE selection, and advance through a double elimination bracket to determine an event winner.
@@ -5014,9 +5041,9 @@ A. if an ALLIANCE is DISQUALIFIED, the DISQUALIFIED ALLIANCE loses
 B. if both ALLIANCES are DISQUALIFIED, the one that is DISQUALIFIED first chronologically
 loses
 
-## Page 155
+## Page 157
 
-Section 13 Tournament (T) V1 155 of 173
+Section 13 Tournament (T) Version: TU05 157 of 175
 C. if, as perceived by the Head REFEREE, both ALLIANCES are simultaneously DISQUALIFIED,
 the MATCH results in a tie
 13.7.1 ALLIANCE Selection Process
@@ -5042,7 +5069,7 @@ in Awards but are not included in the Qualification MATCHES are not included in
 determining the Playoff MATCH bracket size. Teams that participated in the
 Qualification MATCHES but don’t intend to participate in the Playoff MATCH
 bracket are included in determining the Playoff MATCH bracket size.
-Table 13-2: Number of playoff ALLIANCES based on all Qualification Match participating teams
+Table 13-2: Number of playoff ALLIANCES based on all Qualification MATCH participating teams
 Total playoff
 eligible teams
 Number of playoff
@@ -5054,9 +5081,9 @@ ALLIANCES formed
 See Section 13.8 Dual Division Events for the additional dual division
 related rules.
 
-## Page 156
+## Page 158
 
-Section 13 Tournament (T) V1 156 of 173
+Section 13 Tournament (T) Version: TU05 158 of 175
 The double elimination tournament consists of an upper and lower bracket that will scale based on the number
 of ALLIANCES. Tournaments with 2 ALLIANCES will have those ALLIANCES face each other in the finals.
 Each ALLIANCE begins in the upper bracket. If an ALLIANCE wins a MATCH in the upper bracket, they remain
@@ -5077,9 +5104,9 @@ MATCH needs to be played due to tie, teams are notified of when the MATCH will o
 delay is provided for teams to reset their ROBOTS prior to the MATCH unless all teams are ready sooner
 (T406). The affected MATCH must be played before the next round begins.
 
-## Page 157
+## Page 159
 
-Section 13 Tournament (T) V1 157 of 173
+Section 13 Tournament (T) Version: TU05 159 of 175
 13.7.3 2-ALLIANCE Bracket and Typical Timing
 Figure 13-3: 2-ALLIANCE playoff bracket
 Table 13-3: 2-ALLIANCE playoff bracket typical timing
@@ -5103,9 +5130,9 @@ Awards: Compass*, Finalists, Winners, and Inspire Award (1) 54
 * if required
 **Awards may be given out after the conclusion of the playoff bracket at the discretion of the Event Director.
 
-## Page 158
+## Page 160
 
-Section 13 Tournament (T) V1 158 of 173
+Section 13 Tournament (T) Version: TU05 160 of 175
 13.7.4 4-ALLIANCE Bracket and Typical Timing
 Figure 13-4: 4-ALLIANCE playoff bracket
 Table 13-4: 4-ALLIANCE playoff typical timing
@@ -5134,9 +5161,9 @@ Awards: Compass*, Finalists, Winners, and Inspire Award (2, 1) 87
 *If Required
 **Awards may be given out after the conclusion of the playoff bracket at the discretion of the Event Director.
 
-## Page 159
+## Page 161
 
-Section 13 Tournament (T) V1 159 of 173
+Section 13 Tournament (T) Version: TU05 161 of 175
 13.7.5 6-ALLIANCE Bracket and Typical Timing
 Figure 13-5: 6-ALLIANCE playoff bracket
 Table 13-5: 6-ALLIANCE playoff bracket typical timing
@@ -5168,15 +5195,15 @@ Awards: Compass*, Finalists, Winners, and Inspire Award (3, 2, 1) 99
 * if required
 **Awards may be given out after the conclusion of the playoff bracket at the discretion of the Event Director.
 
-## Page 160
+## Page 162
 
-Section 13 Tournament (T) V1 160 of 173
+Section 13 Tournament (T) Version: TU05 162 of 175
 13.7.6 8-ALLIANCE Bracket and Typical Timing
 Figure 13-6: 8-ALLIANCE playoff bracket
 
-## Page 161
+## Page 163
 
-Section 13 Tournament (T) V1 161 of 173
+Section 13 Tournament (T) Version: TU05 163 of 175
 Table 13-6: 8-ALLIANCE playoff bracket typical timing
 Round MATCH
 Upper/
@@ -5222,9 +5249,9 @@ In Dual Division events, teams can be assigned to division in a few different me
 For complete details, reference the event management software documentation. The method used is at the
 discretion of the local Program Delivery Partner.
 
-## Page 162
+## Page 164
 
-Section 13 Tournament (T) V1 162 of 173
+Section 13 Tournament (T) Version: TU05 164 of 175
 A. Random Assignment – Random division assignment takes the team list, shuffles it, and splits the list in
 half. If equal division sizes cannot be made, the software randomly chooses which division will have an
 extra team.
@@ -5263,9 +5290,9 @@ Playoff Advancement
 10 points for all Division Finalists
 5 points for all Division 3rd Places
 
-## Page 163
+## Page 165
 
-Section 13 Tournament (T) V1 163 of 173
+Section 13 Tournament (T) Version: TU05 165 of 175
 13.8.2 Dual Division Playoffs
 Each division plays a standard tournament as described in Section 13.6 Qualification MATCHES followed
 by Divisional Playoffs to produce the Division Winning ALLIANCE. Those 2 Division Winning ALLIANCES have
@@ -5276,9 +5303,9 @@ Dual division events will play divisional playoff brackets and then the two ALLI
 Figure 13-7. The first to win 2 MATCHES will be the event winning ALLIANCE. An example of Dual Division
 Playoff Timing is shown in Table 13-8.
 
-## Page 164
+## Page 166
 
-Section 13 Tournament (T) V1 164 of 173
+Section 13 Tournament (T) Version: TU05 166 of 175
 Table 13-8: 6-ALLIANCE Dual Division playoff bracket typical timing
 Round MATCH
 Upper/
@@ -5314,11 +5341,11 @@ Awards: Compass*, Div. Finalists, Division Winners, Event Finalist, Event Winner
 * if required
 **Awards may be given out after the conclusion of the playoff bracket at the discretion of the Event Director.
 
-## Page 165
+## Page 167
 
 Section 14 League Play
 Tournaments (L)
-V1 165 of 173
+Version: TU05 167 of 175
 14 League Play Tournaments (L)
 Not all regions offer participation in League play. Leagues are closed groups of teams which play in multiple
 different League Meet events typically spread over several weeks or months. All the teams in the same League
@@ -5344,13 +5371,13 @@ League Tournament advancement (Table 4-1) is calculated only using team performa
 Tournament except for the Qualification Round Performance which is based on the League Tournament
 Ranking which include the top 10 League Meet MATCHES as described above.
 
-## Page 166
+## Page 168
 
 
 
-## Page 167
+## Page 169
 
-Section 15 FIRST Championship (C) V1 167 of 173
+Section 15 FIRST Championship (C) Version: TU05 169 of 175
 15
 FIRST Championship (C)
 At the 2026-2027 FIRST Championship, teams are split into 6 divisions. Each division plays a standard
@@ -5384,9 +5411,9 @@ these modifications are exclusively aesthetic in nature and will not affect the 
 impact ROBOT designs. The details of these modifications will be published in or before the last regularly
 scheduled Team Update as described in Section 1.7.3 Team Updates.
 
-## Page 168
+## Page 170
 
-Section 15 FIRST Championship (C) V1 168 of 173
+Section 15 FIRST Championship (C) Version: TU05 170 of 175
 15.3 3-ROBOT ALLIANCES
 ALLIANCES at the FIRST Championship will be made up of 3 ROBOTS. Before each division playoff
 tournament, ALLIANCES are selected per the process as described in Section 13.7.1 ALLIANCE Selection
@@ -5419,9 +5446,9 @@ FIRST Championship Playoffs
 More information about the FIRST Championship playoff tournament structure will
 be released as part of a future Team Update.
 
-## Page 169
+## Page 171
 
-Section 16 Glossary V1 169 of 173
+Section 16 Glossary Version: TU05 171 of 175
 16 Glossary
 The following definitions and terms are used for the FIRST Tech Challenge game BIOBUZZ. Defined terms are
 in ALL CAPITAL LETTERS throughout the manual (for example, ALLIANCE). Competition rules mean what they
@@ -5461,9 +5488,9 @@ with a flat or concave face of the ROBOT
 COTS a standard (i.e., not custom order) part commonly available from a VENDOR
 for all teams for purchase
 
-## Page 170
+## Page 172
 
-Section 16 Glossary V1 170 of 173
+Section 16 Glossary Version: TU05 172 of 175
 CUSTOM CIRCUIT any active electrical item that is not an actuator (specified in R501) or power
 regulation device (specified in R505)
 DISABLED The REFEREE instructs the team to stop the ROBOT which will deactivate all
@@ -5502,9 +5529,9 @@ HOME REGION the region in which a team is assigned and in which they are only el
 advance from events within
 HUMAN PLAYER a SCORING ELEMENT manager
 
-## Page 171
+## Page 173
 
-Section 16 Glossary V1 171 of 173
+Section 16 Glossary Version: TU05 173 of 175
 INSPECTOR a person determined by FIRST to accurately and efficiently assess the legality
 of a given part or the whole of a ROBOT, an event volunteer role
 JUDGE volunteers who determine the teams that receive awards at events
@@ -5544,9 +5571,9 @@ ROBOT by contact, either direct or transitive (such as against a FIELD
 element)
 POLLEN 2.8 in. (7.1 cm) Gopher ResisDent™ polyethylene balls in yellow
 
-## Page 172
+## Page 174
 
-Section 16 Glossary V1 172 of 173
+Section 16 Glossary Version: TU05 174 of 175
 POLLINATOR 1 RP an RP earned when the number of TIPS at or above threshold
 POLLINATOR 2 RP an RP earned when the number of TIPS at or above threshold
 PORTFOLIO a document used as part of the judging process with requirements outlined
@@ -5583,9 +5610,9 @@ Qualification MATCH
 SWARM RP an RP earned when the combined LEAVE + PARK points earned at or above
 threshold
 
-## Page 173
+## Page 175
 
-Section 16 Glossary V1 173 of 173
+Section 16 Glossary Version: TU05 175 of 175
 TELEOP
 third period of each MATCH is 2 minutes (2:00) long and called the
 teleoperated period (TELEOP). During TELEOP, DRIVERS remotely operate
