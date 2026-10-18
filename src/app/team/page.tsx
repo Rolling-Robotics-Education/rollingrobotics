@@ -127,7 +127,7 @@ export default function TeamPage() {
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Aarush G</h3>
                 <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Hardware • 8th Grader at Timberline Middle School</p>
                 <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
-                   xxxx
+                   Hi, my name is Aarush and I am an 8th grader and Timberline Middle School, I am currently part of the hardware team. I joined Sushi Squad because I&apos;m interested in engineering and working with a team. Outside of robotics, I like swimming and yoyoing.
                 </p>
               </div>
             </div>
