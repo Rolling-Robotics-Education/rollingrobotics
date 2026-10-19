@@ -1,5 +1,4 @@
 import { NextResponse } from 'next/server'
-import type { NextRequest } from 'next/server'
 
 // Content Security Policy.
 // This neutralizes injected script loaders (e.g. `eval(atob(...))` "EtherHiding"
@@ -23,7 +22,7 @@ const contentSecurityPolicy = [
   'upgrade-insecure-requests',
 ].join('; ')
 
-export function middleware(request: NextRequest) {
+export function middleware() {
   const response = NextResponse.next()
 
   // Force browsers to revalidate cached content and clear locally persisted

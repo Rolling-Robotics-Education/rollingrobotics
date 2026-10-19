@@ -52,6 +52,24 @@ export default function SupportPage() {
               </ul>
             </div>
 
+            {/* Benevity Donation Section */}
+            <div className="border-t border-gray-200 dark:border-gray-600 py-8 mb-4 text-center">
+              <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+                Support us through Benevity
+              </h3>
+              <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
+                Find Rolling Robotics Education on Benevity to support our robotics education programs.
+              </p>
+              <a
+                href="https://causes.benevity.org/causes/840-993960199"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-primary-600 hover:bg-primary-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200"
+              >
+                Visit our Benevity Causes page
+              </a>
+            </div>
+
             {/* STEM Horizons Section */}
             <div className="border-t border-gray-200 dark:border-gray-600 pt-8">
               <div className="mb-8">
@@ -155,8 +173,8 @@ export default function SupportPage() {
                 {/* Call to Action */}
                 <div className="bg-primary-50 dark:bg-primary-900/20 border border-primary-200 dark:border-primary-800 rounded-lg p-6 text-center">
                   <p className="text-gray-700 dark:text-gray-300 mb-4">
-                    Make sure to match your hours for these activities, and please donate to the cause{' '}
-                    <strong className="text-primary-600 dark:text-primary-400">&quot;STEM HORIZONS via Rolling Robotics Education&quot;</strong> at{' '}
+                    If you are a Microsoft employee, please make sure to match your hours for these activities, and please donate to the cause{' '}
+                    <strong className="text-primary-600 dark:text-primary-400">&quot;Rolling Robotics Education&quot;</strong> at{' '}
                     <a 
                       href="https://aka.ms/give"
                       target="_blank"
