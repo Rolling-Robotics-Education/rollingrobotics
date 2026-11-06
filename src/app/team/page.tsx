@@ -163,7 +163,7 @@ export default function TeamPage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Abigail</h3>
-                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Captain • Outreach Team • Senior at Redmond High School</p>
+                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Captain • Outreach • Senior at Redmond High School</p>
                 <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
                   Hi! My name is Abigail, and I&apos;m a senior at Redmond High School. Currently, I&apos;m captain and part of the outreach subteam. I joined this team to have the opportunity to practice real-life soft skills and to make an impact in the community. Apart from robotics, I&apos;m a violinist and pianist.
                 </p>
@@ -220,7 +220,7 @@ export default function TeamPage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Charik</h3>
-                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Hardware • Sophomore at The North Creek School</p>
+                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Software • Sophomore at The North Creek School</p>
                 <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
                   Hello, my name is Charik and I&apos;m a freshman at North Creek Highschool. I&apos;m currently part of the software team. I joined Sushi Squad because I wanted to learn more about software and already enjoyed it. Outside of robotics I enjoy reading and playing video games
                 </p>
@@ -239,7 +239,7 @@ export default function TeamPage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Emma</h3>
-                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Outreach Lead & Graphic Designer • Freshman at Redmond High School</p>
+                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Outreach Lead • Graphic Designer • Freshman at Redmond High School</p>
                 <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
                   Hi! I&apos;m Emma, and I&apos;m a freshman at Redmond High School. I&apos;m currently the outreach lead and the graphic designer. I joined Sushi Squad to learn more about robotics, being a programmer, and being part of a team. Outside of robotics and engineering, I enjoy kpop, drawing, and play the flute.
                 </p>
@@ -277,7 +277,7 @@ export default function TeamPage() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Kerrie</h3>
-                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Vice Captain • Freshman at Redmond High School</p>
+                <p className="text-sm text-primary-600 dark:text-primary-400 mb-3">Vice Captain • Software • Freshman at Redmond High School</p>
                 <p className="text-gray-600 dark:text-gray-300 text-sm leading-relaxed">
                   Hello there, my name is Kerrie and I am a freshman at Redmond High School. I am part of the hardware team and vice captain. I like watching YouTube and playing video games. I joined this FIRST Tech Challenge team to explore more on the mechanic field.
                 </p>
