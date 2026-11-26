@@ -6,10 +6,6 @@ const nextConfig = {
   outputFileTracingIncludes: {
     '/*': ['./data/**/*'],
   },
-  images: {
-    unoptimized: true
-  },
-
   async redirects() {
     return [
       {

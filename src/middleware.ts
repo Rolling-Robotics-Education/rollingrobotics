@@ -25,13 +25,10 @@ const contentSecurityPolicy = [
 export function middleware() {
   const response = NextResponse.next()
 
-  // Force browsers to revalidate cached content and clear locally persisted
-  // artifacts. "storage" also unregisters any rogue service worker that a prior
-  // compromise may have installed, which "cache" alone does not remove.
-  // NOTE: this is incident-response hardening; relax to '"cache"' or remove once
-  // visitors have been cleaned to avoid clearing site data on every request.
-  response.headers.set('Cache-Control', 'public, max-age=0, must-revalidate')
-  response.headers.set('Clear-Site-Data', '"cache", "storage"')
+  response.headers.set(
+    'Cache-Control',
+    'public, max-age=0, must-revalidate, s-maxage=3600, stale-while-revalidate=86400'
+  )
 
   // Security headers
   response.headers.set('Content-Security-Policy', contentSecurityPolicy)
